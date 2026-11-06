@@ -1,5 +1,80 @@
 {
   "schema": 1,
-  "last_run_at": null,
-  "sources": []
+  "last_run_at": "2026-11-06T09:39:55Z",
+  "sources": [
+    {
+      "id": "daj-fiches",
+      "nom": "DAJ — fiches techniques de la commande publique",
+      "url": "https://www.economie.gouv.fr/daj/commande-publique/conseils-aux-acheteurs/fiches-techniques",
+      "source_ids": [
+        "ccp"
+      ],
+      "last_attempt_at": "2026-11-06T09:39:55Z",
+      "last_success_at": null,
+      "baseline_at": null,
+      "last_change_at": null,
+      "digest": null,
+      "history": [],
+      "status": "controle_impossible",
+      "last_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "daj-commande",
+      "nom": "DAJ — commande publique",
+      "url": "https://www.economie.gouv.fr/daj/commande-publique",
+      "source_ids": [
+        "ccp"
+      ],
+      "last_attempt_at": "2026-11-06T09:39:55Z",
+      "last_success_at": null,
+      "baseline_at": null,
+      "last_change_at": null,
+      "digest": null,
+      "history": [],
+      "status": "controle_impossible",
+      "last_error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "dgcl-collectivites",
+      "nom": "DGCL — portail des collectivités locales",
+      "url": "https://www.collectivites-locales.gouv.fr/",
+      "source_ids": [
+        "dgcl"
+      ],
+      "last_attempt_at": "2026-11-06T09:39:55Z",
+      "last_success_at": "2026-11-06T09:39:55Z",
+      "baseline_at": "2026-11-06T09:39:55Z",
+      "last_change_at": null,
+      "digest": "10dbd5597d5232465cea47e9b17caffaf153e8eca0409554a2831297a5bb398c",
+      "history": [
+        {
+          "date": "2026-11-06T09:39:55Z",
+          "evenement": "premiere_empreinte"
+        }
+      ],
+      "last_error": null,
+      "status": "initialisation"
+    },
+    {
+      "id": "cnil-collectivites",
+      "nom": "CNIL — ressources collectivités territoriales",
+      "url": "https://www.cnil.fr/fr/thematiques/collectivites-territoriales",
+      "source_ids": [
+        "cnil"
+      ],
+      "last_attempt_at": "2026-11-06T09:39:55Z",
+      "last_success_at": "2026-11-06T09:39:55Z",
+      "baseline_at": "2026-11-06T09:39:55Z",
+      "last_change_at": null,
+      "digest": "26344bad483b1443ab5d810d9f6f0b5b59bf72ecdeacfd2703bbb282bc14e46d",
+      "history": [
+        {
+          "date": "2026-11-06T09:39:55Z",
+          "evenement": "premiere_empreinte"
+        }
+      ],
+      "last_error": null,
+      "status": "initialisation"
+    }
+  ]
 }
