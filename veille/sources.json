@@ -1,26 +1,38 @@
 [
   {
     "id": "daj-fiches",
-    "nom": "DAJ — fiches techniques de la commande publique",
+    "nom": "DAJ — fiches techniques (consultation manuelle)",
     "url": "https://www.economie.gouv.fr/daj/commande-publique/conseils-aux-acheteurs/fiches-techniques",
+    "mode": "manuel",
     "source_ids": ["ccp"]
   },
   {
     "id": "daj-commande",
-    "nom": "DAJ — commande publique",
+    "nom": "DAJ — commande publique (consultation manuelle)",
     "url": "https://www.economie.gouv.fr/daj/commande-publique",
+    "mode": "manuel",
+    "source_ids": ["ccp"]
+  },
+  {
+    "id": "daj-actualites",
+    "nom": "DAJ — actualités officielles (RSS)",
+    "url": "https://www.economie.gouv.fr/daj/rss",
+    "page_url": "https://www.economie.gouv.fr/daj/flux-rss",
+    "mode": "rss",
     "source_ids": ["ccp"]
   },
   {
     "id": "dgcl-collectivites",
     "nom": "DGCL — portail des collectivités locales",
     "url": "https://www.collectivites-locales.gouv.fr/",
+    "mode": "html",
     "source_ids": ["dgcl"]
   },
   {
     "id": "cnil-collectivites",
     "nom": "CNIL — ressources collectivités territoriales",
     "url": "https://www.cnil.fr/fr/thematiques/collectivites-territoriales",
+    "mode": "html",
     "source_ids": ["cnil"]
   }
 ]
