@@ -1,15 +1,17 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-06T10:30:31Z",
+  "last_run_at": "2026-11-06T10:47:09Z",
   "sources": [
     {
       "id": "daj-fiches",
       "nom": "DAJ — fiches techniques de la commande publique",
       "url": "https://www.economie.gouv.fr/daj/commande-publique/conseils-aux-acheteurs/fiches-techniques",
+      "mode": "html",
+      "page_url": null,
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-06T10:30:31Z",
+      "last_attempt_at": "2026-11-06T10:47:09Z",
       "last_success_at": null,
       "baseline_at": null,
       "last_change_at": null,
@@ -22,10 +24,12 @@
       "id": "daj-commande",
       "nom": "DAJ — commande publique",
       "url": "https://www.economie.gouv.fr/daj/commande-publique",
+      "mode": "html",
+      "page_url": null,
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-06T10:30:31Z",
+      "last_attempt_at": "2026-11-06T10:47:09Z",
       "last_success_at": null,
       "baseline_at": null,
       "last_change_at": null,
@@ -38,11 +42,13 @@
       "id": "dgcl-collectivites",
       "nom": "DGCL — portail des collectivités locales",
       "url": "https://www.collectivites-locales.gouv.fr/",
+      "mode": "html",
+      "page_url": null,
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-06T10:30:31Z",
-      "last_success_at": "2026-11-06T10:30:31Z",
+      "last_attempt_at": "2026-11-06T10:47:09Z",
+      "last_success_at": "2026-11-06T10:47:09Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": null,
       "digest": "10dbd5597d5232465cea47e9b17caffaf153e8eca0409554a2831297a5bb398c",
@@ -59,11 +65,13 @@
       "id": "cnil-collectivites",
       "nom": "CNIL — ressources collectivités territoriales",
       "url": "https://www.cnil.fr/fr/thematiques/collectivites-territoriales",
+      "mode": "html",
+      "page_url": null,
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-06T10:30:31Z",
-      "last_success_at": "2026-11-06T10:30:31Z",
+      "last_attempt_at": "2026-11-06T10:47:09Z",
+      "last_success_at": "2026-11-06T10:47:09Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": null,
       "digest": "26344bad483b1443ab5d810d9f6f0b5b59bf72ecdeacfd2703bbb282bc14e46d",
