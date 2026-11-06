@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-06T10:48:52Z",
+  "last_run_at": "2026-11-06T10:54:20Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,8 +47,8 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-06T10:48:52Z",
-      "last_success_at": "2026-11-06T10:48:52Z",
+      "last_attempt_at": "2026-11-06T10:54:20Z",
+      "last_success_at": "2026-11-06T10:54:20Z",
       "baseline_at": "2026-11-06T10:48:15Z",
       "last_change_at": null,
       "digest": "eeb00448c0f0911e8bcdd811772273089012b7dfdb8fa56fe8dc4df5d240d419",
@@ -70,8 +70,8 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-06T10:48:52Z",
-      "last_success_at": "2026-11-06T10:48:52Z",
+      "last_attempt_at": "2026-11-06T10:54:20Z",
+      "last_success_at": "2026-11-06T10:54:20Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": null,
       "digest": "10dbd5597d5232465cea47e9b17caffaf153e8eca0409554a2831297a5bb398c",
@@ -93,8 +93,8 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-06T10:48:52Z",
-      "last_success_at": "2026-11-06T10:48:52Z",
+      "last_attempt_at": "2026-11-06T10:54:20Z",
+      "last_success_at": "2026-11-06T10:54:20Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": null,
       "digest": "26344bad483b1443ab5d810d9f6f0b5b59bf72ecdeacfd2703bbb282bc14e46d",
