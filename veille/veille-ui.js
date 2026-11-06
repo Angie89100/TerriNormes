@@ -1,4 +1,4 @@
-/* TerriNormes 1.2 — tableau de bord de veille documentaire et revue humaine locale. */
+/* TerriNormes 1.3 — tableau de bord de veille documentaire et revue humaine locale. */
 (() => {
   'use strict';
   const CSS = `
@@ -13,7 +13,7 @@
   .tn-dashboard { margin: 0 0 22px; }
   .tn-dashboard h2 { font-family: Georgia,serif; margin: 16px 0 12px; font-size: 22px; color: #184b70; }
   .tn-dashboard p { line-height: 1.55; }
-  .tn-dashboard-kpis { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 10px; margin: 13px 0 18px; }
+  .tn-dashboard-kpis { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 10px; margin: 13px 0 18px; }
   .tn-dashboard-kpi { background: #fff; border: 1px solid #d9e4ed; border-radius: 10px; padding: 12px 14px; }
   .tn-dashboard-kpi strong { display:block; color: #164563; font: 700 25px Georgia,serif; }
   .tn-dashboard-kpi span { display:block; font-size: 11px; color: #587085; margin-top: 4px; }
@@ -31,6 +31,7 @@
   .tn-status[data-state="blocked"],.tn-status[data-state="pending"] { background:#fff0e8; color:#934326; }
   .tn-status[data-state="changed"] { background:#fff2ce; color:#775211; }
   .tn-status[data-state="ok"] { background:#e9f5f0; color:#21624b; }
+  .tn-status[data-state="manual"] { background:#edf2f6; color:#31536e; }
   .tn-priority { border-left:3px solid #cf9433; padding:9px 12px; background:#fffaf0; margin:8px 0; font-size:12px; border-radius:5px; }
   .tn-priority a { font-weight:600; }
   .tn-empty-note { color:#637689; font-size:12px; }
@@ -41,6 +42,7 @@
   .tn-review-grid { display:grid;grid-template-columns:1fr 1fr;gap:12px; }
   .tn-review-form .btn { margin-top:12px; }
   .tn-review-warning { font-size:11px;color:#635544; margin-top:9px; }
+  @media(max-width:1100px) { .tn-dashboard-kpis{grid-template-columns:repeat(3,minmax(0,1fr))} }
   @media(max-width:840px) { .tn-dashboard-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.tn-review-grid{grid-template-columns:1fr} }
 
   `;
@@ -68,18 +70,22 @@
     if (feedError) return { etat: 'indisponible', titre: 'Veille indisponible — consulter les sources', sources, check };
     if (!feed.last_run_at) return { etat: 'indisponible', titre: 'Veille non démarrée — aucun contrôle automatique', sources, check };
     if (!sources.length) return { etat: 'neutre', titre: 'Aucune source de veille liée à cette fiche', sources, check };
-    if (sources.some(s => s.status === 'controle_impossible' || !s.last_success_at)) {
-      return { etat: 'indisponible', titre: 'Contrôle incomplet — vérification manuelle nécessaire', sources, check };
+    const automatic = sources.filter(s => s.mode !== 'manuel' && s.status !== 'verification_manuelle');
+    const manual = sources.some(s => s.mode === 'manuel' || s.status === 'verification_manuelle');
+    if (!automatic.length) return { etat: 'neutre', titre: 'Sources à consulter manuellement — aucune surveillance automatique liée', sources, check };
+    if (automatic.some(s => s.status === 'controle_impossible' || !s.last_success_at)) {
+      return { etat: 'indisponible', titre: 'Surveillance automatique incomplète — vérification manuelle nécessaire', sources, check };
     }
-    const changes = sources.filter(s => s.last_change_at);
+    const changes = automatic.filter(s => s.last_change_at);
     const lastChange = changes.reduce((max, s) => Math.max(max, Date.parse(s.last_change_at) || 0), 0);
     const human = checkTimestamp(check);
     if (lastChange && (human === null || human <= lastChange)) {
       return { etat: 'attention', titre: 'Page source modifiée — examen humain à effectuer', sources, check };
     }
-    return { etat: 'neutre', titre: check
-      ? 'Sources contrôlées ; vérification humaine déclarée le ' + check
-      : 'Sources contrôlées ; vérification humaine non déclarée', sources, check };
+    return { etat: 'neutre', titre: manual
+      ? 'Veille partielle ; sources DAJ à consulter manuellement (la veille RSS ne contrôle pas le droit)'
+      : check ? 'Sources techniques contrôlées ; vérification humaine déclarée le ' + check
+      : 'Sources techniques contrôlées ; vérification humaine non déclarée', sources, check };
   }
   const p = (txt) => { const el = document.createElement('p'); el.textContent = txt; return el; };
   function updateCards() {
@@ -123,12 +129,12 @@
     for (const s of status.sources) {
       const sub = document.createElement('div');
       sub.className = 'tn-releve';
-      sub.appendChild(p(s.nom + ' — ' + ({ initialisation: 'Empreinte initiale', page_modifiee: 'Page modifiée', sans_nouveau_changement: 'Aucun nouveau changement', controle_impossible: 'Contrôle impossible' }[s.status] || 'Non évalué')));
-      sub.appendChild(p('Dernier contrôle réussi : ' + format(s.last_success_at)));
+      sub.appendChild(p(s.nom + ' — ' + ({ initialisation: 'Empreinte initiale', page_modifiee: 'Page modifiée', sans_nouveau_changement: 'Aucun nouveau changement', controle_impossible: 'Contrôle impossible', verification_manuelle: 'Consultation manuelle uniquement' }[s.status] || 'Non évalué')));
+      sub.appendChild(p('Dernier contrôle technique réussi : ' + (s.mode === 'manuel' ? 'Non surveillé automatiquement' : format(s.last_success_at))));
       sub.appendChild(p('Dernière modification détectée : ' + format(s.last_change_at)));
       if (s.last_error) sub.appendChild(p('Incident technique : ' + s.last_error));
       const link = document.createElement('a');
-      link.href = s.url;
+      link.href = s.page_url || s.url;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       link.textContent = 'Ouvrir la source officielle';
@@ -163,12 +169,16 @@
     return Date.parse(review.date) > Date.parse(s.last_change_at);
   }
   function technicalStatus(s) {
+    if (s.mode === 'manuel' || s.status === 'verification_manuelle') return ['manual','Consultation manuelle'];
     if (s.status === 'controle_impossible' || !s.last_success_at) return ['blocked','Contrôle impossible'];
-    if (s.status === 'initialisation') return ['ok','Empreinte initiale'];
-    if (s.status === 'page_modifiee') return ['changed','Page modifiée'];
-    return ['ok','Contrôle effectué'];
+    if (s.status === 'initialisation') return ['ok',s.mode === 'rss'?'Flux initialisé':'Empreinte initiale'];
+    if (s.status === 'page_modifiee') return ['changed',s.mode === 'rss'?'Flux RSS modifié':'Page modifiée'];
+    return ['ok',s.mode === 'rss'?'Flux contrôlé':'Page contrôlée'];
   }
   function requiredAction(s) {
+    if (s.mode === 'manuel' || s.status === 'verification_manuelle') {
+      return 'Source DAJ hors surveillance automatique : consulter les fiches ou le portail officiels et consigner une revue humaine ciblée.';
+    }
     if (s.status === 'controle_impossible' || !s.last_success_at) {
       return 'Accès automatique impossible : vérifier manuellement la source officielle et rechercher une méthode de collecte autorisée.';
     }
@@ -183,28 +193,30 @@
   }
   function dashboardHTML() {
     const sources = Array.isArray(feed.sources) ? feed.sources : [];
-    const ok = sources.filter(s => !!s.last_success_at && s.status !== 'controle_impossible').length;
-    const blocked = sources.filter(s => s.status === 'controle_impossible' || !s.last_success_at).length;
-    const changed = sources.filter(s => !!s.last_change_at && !reviewedAfterLastChange(s) && s.status !== 'controle_impossible').length;
+    const manual = sources.filter(s => s.mode === 'manuel' || s.status === 'verification_manuelle').length;
+    const automatic = sources.filter(s => s.mode !== 'manuel' && s.status !== 'verification_manuelle');
+    const ok = automatic.filter(s => !!s.last_success_at && s.status !== 'controle_impossible').length;
+    const blocked = automatic.filter(s => s.status === 'controle_impossible' || !s.last_success_at).length;
+    const changed = automatic.filter(s => !!s.last_change_at && !reviewedAfterLastChange(s) && s.status !== 'controle_impossible').length;
     const todo = sources.filter(s => !!requiredAction(s));
     const summary = feedError ? 'Journal indisponible : ' + feedError :
       (!feed.last_run_at ? 'Aucun contrôle automatique exécuté à ce jour.' :
-        'Dernier lancement technique : ' + format(feed.last_run_at) + '. ' + ok + ' source(s) accessibles, ' + blocked + ' contrôle(s) impossible(s).');
+        'Dernier lancement technique : ' + format(feed.last_run_at) + '. ' + ok + ' contrôle(s) techniques réussis, ' + blocked + ' contrôle(s) impossible(s), ' + manual + ' source(s) à consulter manuellement.');
     const statusTable = sources.map(s => {
-      const [state,label] = technicalStatus(s), link = safeURL(s.url), rv=lastReview(s.id);
+      const [state,label] = technicalStatus(s), link = safeURL(s.page_url || s.url), rv=lastReview(s.id);
       const manual = rv ? 'Revue déclarée le '+format(rv.date)+(rv.reviewer ? ' · '+rv.reviewer : '') : 'Aucune revue consignée';
       const errorText = s.last_error ? '<div style="color:#964d2d;font-size:11px;">'+html(s.last_error)+'</div>': '';
       return '<tr><td><strong>'+html(s.nom)+'</strong><div>'+(link?'<a href="'+html(link)+'" target="_blank" rel="noopener noreferrer">Source officielle ↗</a>':'URL indisponible')+'</div></td>'+ 
         '<td><span class="tn-status" data-state="'+state+'">'+label+'</span>'+errorText+'</td>'+ 
-        '<td>'+html(format(s.last_attempt_at))+'</td><td>'+html(format(s.last_success_at))+'</td>'+ 
-        '<td>'+html(format(s.last_change_at))+'</td><td>'+html(manual)+'</td>'+ 
+        '<td>'+html(s.mode==='manuel'?'Sans automatisation':format(s.last_attempt_at))+'</td><td>'+html(s.mode==='manuel'?'—':format(s.last_success_at))+'</td>'+ 
+        '<td>'+html(s.mode==='manuel'?'—':format(s.last_change_at))+'</td><td>'+html(manual)+'</td>'+ 
         '<td><button type="button" class="btn tiny" data-tn-review-open="'+html(s.id)+'">Consigner une revue</button></td></tr>';
     }).join('');
     const incidentList = todo.map(s => '<div class="tn-priority"><strong>'+html(s.nom)+'</strong> — '+html(requiredAction(s))+'</div>').join('');
     const events = sources.flatMap(s => Array.isArray(s.history) ? s.history.map(h => ({
       date:h.date, source:s.nom, event:h.evenement
     })) : []).sort((a,b) => (Date.parse(b.date)||0)-(Date.parse(a.date)||0)).slice(0,15);
-    const eventLabels = {'premiere_empreinte':'Première empreinte enregistrée','page_modifiee':'Modification de page détectée','sans_nouveau_changement':'Aucun changement détecté'};
+    const eventLabels = {'premiere_empreinte':'Première empreinte technique','page_modifiee':'Contenu de source modifié (analyse requise)','sans_nouveau_changement':'Aucun changement détecté'};
     const eventRows = events.map(e=>'<tr><td>'+html(format(e.date))+'</td><td>'+html(e.source)+'</td><td>'+html(eventLabels[e.event] || e.event || 'Événement technique')+'</td></tr>').join('');
     const reviewsRows = reviews.slice().sort((a,b) => (Date.parse(b.date)||0)-(Date.parse(a.date)||0)).slice(0,12).map(r => {
       const source = sources.find(s=>s.id===r.sourceId);
@@ -213,12 +225,13 @@
     }).join('');
     const reviewOptions = sources.map(s=>'<option value="'+html(s.id)+'">'+html(s.nom)+'</option>').join('');
     return '<div class="tn-dashboard" aria-label="Tableau de bord de veille">'+
-      '<div class="tn-intro"><strong>Surveillance technique partielle — pas de mise à jour automatique du droit.</strong> '+html(summary)+
+      '<div class="tn-intro"><strong>Surveillance documentaire limitée — pas de mise à jour automatique du droit.</strong> '+html(summary)+
       ' Une modification de page ne prouve pas une évolution de la réglementation ; un contrôle humain documenté reste nécessaire.</div>'+ 
       '<div class="tn-dashboard-kpis">'+
-      '<div class="tn-dashboard-kpi"><strong>'+sources.length+'</strong><span>Sources configurées</span></div>'+ 
-      '<div class="tn-dashboard-kpi"><strong>'+ok+'</strong><span>Contrôles accessibles</span></div>'+ 
+      '<div class="tn-dashboard-kpi"><strong>'+sources.length+'</strong><span>Sources référencées</span></div>'+ 
+      '<div class="tn-dashboard-kpi"><strong>'+ok+'</strong><span>Sources contrôlées</span></div>'+ 
       '<div class="tn-dashboard-kpi"><strong>'+blocked+'</strong><span>Contrôles impossibles</span></div>'+ 
+      '<div class="tn-dashboard-kpi"><strong>'+manual+'</strong><span>Sources manuelles</span></div>'+ 
       '<div class="tn-dashboard-kpi"><strong>'+todo.length+'</strong><span>Actions humaines ou techniques à traiter</span></div></div>'+ 
       '<div class="tn-toolbar"><button id="tn-refresh" class="btn tiny" type="button">Actualiser les résultats</button>'+ 
       '<a class="btn tiny" target="_blank" rel="noopener noreferrer" href="data/veille.json">Journal technique JSON ↗</a>'+ 
@@ -266,14 +279,14 @@
   }
   function updateMentions() {
     const sidebar = document.querySelector('.sidebottom');
-    if (sidebar && sidebar.dataset.tnVersion !== '1.2') {
-      sidebar.innerHTML = 'Édition documentaire du 04/11/2026.<br>Veille technique partielle (4 pages configurées), sans mise à jour ni validation juridique automatique.<br><b>Notes et revues :</b> stockage dans ce navigateur.';
-      sidebar.dataset.tnVersion = '1.2';
+    if (sidebar && sidebar.dataset.tnVersion !== '1.3') {
+      sidebar.innerHTML = 'Édition documentaire du 04/11/2026.<br>Surveillance technique partielle, consultation DAJ manuelle et flux d’actualité en expérimentation ; aucune mise à jour juridique automatique.<br><b>Notes et revues :</b> stockage dans ce navigateur.';
+      sidebar.dataset.tnVersion = '1.3';
     }
     const footer = document.querySelector('.footer');
-    if (footer && footer.dataset.tnVersion !== '1.2') {
-      footer.textContent = 'TerriNormes · Référentiel documentaire 04/11/2026 · Module de veille technique 1.2 · Validation juridique humaine à documenter · Non affilié aux organismes officiels.';
-      footer.dataset.tnVersion = '1.2';
+    if (footer && footer.dataset.tnVersion !== '1.3') {
+      footer.textContent = 'TerriNormes · Référentiel documentaire 04/11/2026 · Module de veille technique 1.3 · Validation juridique humaine à documenter · Non affilié aux organismes officiels.';
+      footer.dataset.tnVersion = '1.3';
     }
   }
   document.addEventListener('click', event => {
@@ -288,7 +301,7 @@
     }
     if (event.target.closest('#tn-refresh')) refresh();
     if (event.target.closest('#tn-export-reviews')) {
-      const data = JSON.stringify({app:'TerriNormes',type:'revues_humaines_locales',version:'1.2',exported_at:new Date().toISOString(),reviews},null,2);
+      const data = JSON.stringify({app:'TerriNormes',type:'revues_humaines_locales',version:'1.3',exported_at:new Date().toISOString(),reviews},null,2);
       const obj = URL.createObjectURL(new Blob([data],{type:'application/json;charset=utf-8'}));
       const link = document.createElement('a');
       link.href = obj;link.download = 'TerriNormes_revues_humaines_'+new Date().toISOString().slice(0,10)+'.json';
