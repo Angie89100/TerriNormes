@@ -1,0 +1,53 @@
+name: TerriNormes - Veille documentaire
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 6 * * *' # 06:17 UTC, tous les jours
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: terrinormes-pages
+  cancel-in-progress: false
+
+jobs:
+  surveiller-et-publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Surveiller les sources configurees
+        run: python veille/surveiller.py
+      - name: Conserver les controles dans l'historique Git
+        run: |
+          if ! git diff --quiet -- data/veille.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/veille.json
+            git commit -m "chore: resultat quotidien veille TerriNormes"
+            git push
+          fi
+      - name: Configurer GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Preparer le site statique
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publier GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
