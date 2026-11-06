@@ -60,5 +60,5 @@ document.addEventListener('submit',e=>{if(e.target.id!=='customform')return;e.pr
 document.addEventListener('change',async e=>{if(e.target.id!=='importData')return;let file=e.target.files?.[0];if(!file)return;try{let v=JSON.parse(await file.text());if(v.app!=='TerriNormes'||!Array.isArray(v.favorites)||!Array.isArray(v.personal)||typeof v.notes!=='object'||!v.notes)throw Error('Format de sauvegarde incompatible');if(!confirm('Importer la sauvegarde et remplacer vos données locales actuelles ?'))return;favs.clear();v.favorites.filter(x=>typeof x==='string').forEach(x=>favs.add(x));personal=v.personal.filter(x=>x&&typeof x.title==='string'&&typeof x.id==='string').map(x=>({...x,custom:true,sourceIds:[],url:isHttp(x.url)?x.url:''}));Object.keys(notes).forEach(k=>delete notes[k]);Object.assign(notes,v.notes);Object.keys(checks).forEach(k=>delete checks[k]);Object.assign(checks,v.checks||{});store('favs',[...favs]);store('personal',personal);store('notes',notes);store('checks',checks);render();toast('Sauvegarde importée.')}catch(err){toast('Import impossible : fichier JSON non conforme.')}finally{e.target.value=''}});
 render();
 </script>
-<script src="veille/veille-ui.js?v=1.2" defer></script>
+<script src="veille/veille-ui.js?v=1.3" defer></script>
 </body></html>
