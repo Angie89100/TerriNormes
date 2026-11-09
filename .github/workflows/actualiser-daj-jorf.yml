@@ -1,0 +1,66 @@
+name: TerriNormes - JORF et fiches DAJ
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 7 * * *' # 07:25 UTC, quotidien; retard possible
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Même groupe que le workflow existant : publications non simultanées.
+concurrency:
+  group: terrinormes-pages
+  cancel-in-progress: false
+
+jobs:
+  collecter-et-publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Charger le depot principal
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tester les deux collecteurs
+        run: python -m unittest discover -s tests -v
+      - name: Actualiser les publications du Journal officiel (DILA)
+        id: jorf
+        continue-on-error: true
+        run: python maj_veille.py --output veille.json
+      - name: Actualiser les fiches techniques DAJ
+        id: daj
+        continue-on-error: true
+        run: python maj_fiches_daj.py --output daj_fiches.json --check-headers
+      - name: Enregistrer les resultats sans modifier l'ancienne veille
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add veille.json daj_fiches.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: suivi JORF et DAJ TerriNormes'
+            git push origin HEAD:main
+          fi
+      - name: Preparer GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Construire l'archive du site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publier le site avec les bases actualisees
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Signaler un echec de collecte sans perdre les anciennes bases
+        if: ${{ steps.jorf.outcome == 'failure' || steps.daj.outcome == 'failure' }}
+        run: |
+          echo 'Un collecteur a echoue. Les donnees valides precedentes ont ete conservees.'
+          exit 1
