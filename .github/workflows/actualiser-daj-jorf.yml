@@ -59,8 +59,12 @@ jobs:
       - name: Publier le site avec les bases actualisees
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Signaler un echec de collecte sans perdre les anciennes bases
-        if: ${{ steps.jorf.outcome == 'failure' || steps.daj.outcome == 'failure' }}
+      - name: Signaler une collecte DAJ impossible
+        if: ${{ steps.daj.outcome == 'failure' }}
+        run: echo "::warning::DAJ inaccessible. Les 65 fiches existantes sont conservees. Verification manuelle necessaire."
+      - name: Signaler un echec de collecte JORF
+        if: ${{ steps.jorf.outcome == 'failure' }}
         run: |
-          echo 'Un collecteur a echoue. Les donnees valides precedentes ont ete conservees.'
+          echo "La collecte JORF a echoue."
           exit 1
+  
