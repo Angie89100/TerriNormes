@@ -71,7 +71,7 @@ def available_archives(directory_html: str, today: dt.date, lookback: int = 8) -
             continue
         # Les lots publiés autour de minuit correspondent principalement à l'édition quotidienne.
         # Les gros lots du soir sont souvent des corrections ; ils ne sont pas indexés ici.
-       if day > today or (today - day).days > lookback:
+        if day > today or (today - day).days > lookback:
             continue
         if day not in matches or hms > matches[day][0]:
             matches[day] = (hms, filename)
