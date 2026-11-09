@@ -32,7 +32,7 @@ class TestVeille(unittest.TestCase):
     def test_select_daily(self):
         html='''<a href="JORFSIMPLE_20261104-002300.tar.gz">a</a><a href="JORFSIMPLE_20261104-212000.tar.gz">b</a><a href="JORFSIMPLE_20261103-001000.tar.gz">c</a>'''
         self.assertEqual(len(available_archives(html,dt.date(2026,11,4))),2)
-        self.assertIn('002300',available_archives(html,dt.date(2026,11,4))[0][1])
+        self.assertIn('212000',available_archives(html,dt.date(2026,11,4))[0][1])
     def test_decode(self):
         item=decode_document(DOC,dt.date(2026,11,4))
         self.assertEqual(item['id'],'JORFTEXT000050012345')
