@@ -1,0 +1,3686 @@
+{
+  "date_reference": "04 novembre 2026",
+  "sources": [
+    [
+      "cgfp",
+      "Code général de la fonction publique (CGFP)",
+      "Statut général, droits et obligations, carrière, dialogue social, protection sociale et règles RH.",
+      "Ressources humaines",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000044416551/",
+      "Légifrance"
+    ],
+    [
+      "cgct",
+      "Code général des collectivités territoriales (CGCT)",
+      "Compétences, organes, services, actes, budget et contrôle de légalité des collectivités.",
+      "Institutions",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070633/",
+      "Légifrance"
+    ],
+    [
+      "ccp",
+      "Code de la commande publique",
+      "Contrats publics, marchés, concessions, procédures, exécution et principes fondamentaux.",
+      "Commande publique",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000037701019/",
+      "Légifrance"
+    ],
+    [
+      "crpa",
+      "Code des relations entre le public et l’administration (CRPA)",
+      "Demandes, décisions, procédures administratives, motivation, accès aux documents.",
+      "Usagers & procédures",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000031366350/",
+      "Légifrance"
+    ],
+    [
+      "m57",
+      "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "Instruction, plans de comptes 2026 et maquettes budgétaires de la DGFiP.",
+      "Finances publiques",
+      "Instruction",
+      "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/budget/instructions-budgetaires-et-comptables/le-referentiel-m57/le-referentiel-budgetaire-et-comptable-m57",
+      "DGFiP / DGCL"
+    ],
+    [
+      "cg3p",
+      "Code général de la propriété des personnes publiques",
+      "Domaine public/privé, occupation et gestion du patrimoine des personnes publiques.",
+      "Urbanisme & patrimoine",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006070299/",
+      "Légifrance"
+    ],
+    [
+      "urban",
+      "Code de l’urbanisme",
+      "Planification, autorisations et contrôle de l’utilisation des sols.",
+      "Urbanisme & patrimoine",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074075/",
+      "Légifrance"
+    ],
+    [
+      "env",
+      "Code de l’environnement",
+      "Participation, prévention, déchets, eau, biodiversité et évaluation environnementale.",
+      "Environnement",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220",
+      "Légifrance"
+    ],
+    [
+      "education",
+      "Code de l’éducation",
+      "Répartition des compétences scolaires, établissements et obligations des collectivités.",
+      "Enfance & éducation",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006071191/",
+      "Légifrance"
+    ],
+    [
+      "casf",
+      "Code de l’action sociale et des familles (CASF)",
+      "Action sociale, aides, petite enfance et établissements sociaux.",
+      "Social & solidarité",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006074069",
+      "Légifrance"
+    ],
+    [
+      "csi",
+      "Code de la sécurité intérieure",
+      "Sécurité publique, police municipale, vidéoprotection et sécurité civile.",
+      "Sécurité & police",
+      "Code",
+      "https://www.legifrance.gouv.fr/loda/id/LEGISCTA000029658628",
+      "Légifrance"
+    ],
+    [
+      "cch",
+      "Code de la construction et de l’habitation (CCH)",
+      "Sécurité, accessibilité, construction et logement.",
+      "Urbanisme & patrimoine",
+      "Code",
+      "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074096/",
+      "Légifrance"
+    ],
+    [
+      "rgpd",
+      "Règlement (UE) 2016/679 — RGPD",
+      "Principes, droits, sécurité et responsabilités des responsables de traitement.",
+      "Numérique & données",
+      "Règlement UE",
+      "https://eur-lex.europa.eu/eli/reg/2016/679/oj/fra",
+      "EUR-Lex"
+    ],
+    [
+      "lif",
+      "Loi Informatique et Libertés du 6 janvier 1978",
+      "Cadre national complémentaire de la protection des données.",
+      "Numérique & données",
+      "Loi",
+      "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006068624&dateTexte=vig",
+      "Légifrance"
+    ],
+    [
+      "cnil",
+      "CNIL — collectivités territoriales",
+      "Guides et fiches opérationnelles de conformité RGPD pour les collectivités.",
+      "Numérique & données",
+      "Guide officiel",
+      "https://www.cnil.fr/fr/thematiques/collectivites-territoriales",
+      "CNIL"
+    ],
+    [
+      "rgaa",
+      "RGAA 4.1.2 — accessibilité numérique",
+      "Référentiel officiel d’accessibilité des services numériques publics ; version 5 annoncée, non présumée en vigueur.",
+      "Numérique & données",
+      "Référentiel",
+      "https://accessibilite.numerique.gouv.fr/",
+      "DINUM"
+    ],
+    [
+      "legalite",
+      "Contrôle de légalité des actes locaux",
+      "Procédure, actes transmissibles et ressources préfectorales de la DGCL.",
+      "Institutions",
+      "Guide officiel",
+      "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/controle-de-legalite/procedure-prefectorale",
+      "DGCL"
+    ],
+    [
+      "dgcl",
+      "Portail des collectivités locales",
+      "Documentation ministérielle sur les institutions, finances et gestion locale.",
+      "Institutions",
+      "Portail",
+      "https://www.collectivites-locales.gouv.fr/",
+      "DGCL / DGFiP"
+    ],
+    [
+      "spmal",
+      "Service Public — congé de maladie du fonctionnaire",
+      "Fiche administrative mise à jour en septembre 2026, selon versant de la fonction publique.",
+      "Ressources humaines",
+      "Fiche officielle",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F490",
+      "Service Public"
+    ],
+    [
+      "sppsc",
+      "Service Public — santé et prévoyance en FPT",
+      "Participation employeur à la protection sociale complémentaire : règles et calendrier.",
+      "Ressources humaines",
+      "Fiche officielle",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F38327",
+      "Service Public"
+    ],
+    [
+      "listecodes",
+      "Liste officielle de tous les codes",
+      "Annuaire de tous les codes consultables dans leur version officielle sur Légifrance.",
+      "Veille juridique",
+      "Portail",
+      "https://www.legifrance.gouv.fr/liste/code",
+      "Légifrance"
+    ],
+    [
+      "jorf",
+      "Journal officiel de la République française",
+      "Textes publiés au Journal officiel ; point d’entrée pour la veille normative.",
+      "Veille juridique",
+      "Portail",
+      "https://www.legifrance.gouv.fr/jorf/jo",
+      "Légifrance"
+    ],
+    [
+      "circulaires",
+      "Circulaires et instructions",
+      "Doctrine administrative accessible sur Légifrance.",
+      "Veille juridique",
+      "Portail",
+      "https://www.legifrance.gouv.fr/circulaires",
+      "Légifrance"
+    ],
+    [
+      "cnfpt",
+      "CNFPT — formation et référentiels métiers",
+      "Formations, catalogues, ressources et accompagnement des agents territoriaux.",
+      "Ressources humaines",
+      "Portail",
+      "https://www.cnfpt.fr/",
+      "CNFPT"
+    ],
+    [
+      "anssi",
+      "ANSSI — cybersécurité des collectivités",
+      "Doctrine, recommandations et ressources nationales de cybersécurité.",
+      "Numérique & données",
+      "Guide officiel",
+      "https://cyber.gouv.fr/",
+      "ANSSI"
+    ],
+    [
+      "maire2026",
+      "Guide du maire 2026 — DGCL",
+      "Repères institutionnels et administratifs pour une commune (guide officiel au format PDF).",
+      "Institutions",
+      "Guide officiel",
+      "https://www.collectivites-locales.gouv.fr/files/files/1.%20Connaitre%20les%20acteurs%20et%20les%20institutions/3.%20Elus%20locaux/guide%20du%20maire%202026/782111743885_DGCL_Guide-du-Maire_2026_PDFweb_accessible.pdf",
+      "DGCL"
+    ]
+  ],
+  "fiches": [
+    {
+      "id": "src-cgfp",
+      "title": "Code général de la fonction publique (CGFP)",
+      "desc": "Statut général, droits et obligations, carrière, dialogue social, protection sociale et règles RH.",
+      "category": "Statut & carrière",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "cgfp"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-cgct",
+      "title": "Code général des collectivités territoriales (CGCT)",
+      "desc": "Compétences, organes, services, actes, budget et contrôle de légalité des collectivités.",
+      "category": "Institutions & actes locaux",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "cgct"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-ccp",
+      "title": "Code de la commande publique",
+      "desc": "Contrats publics, marchés, concessions, procédures, exécution et principes fondamentaux.",
+      "category": "Commande publique",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "ccp"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-crpa",
+      "title": "Code des relations entre le public et l’administration (CRPA)",
+      "desc": "Demandes, décisions, procédures administratives, motivation, accès aux documents.",
+      "category": "Usagers & procédures",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "crpa"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-m57",
+      "title": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "desc": "Instruction, plans de comptes 2026 et maquettes budgétaires de la DGFiP.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Texte / source",
+      "kind": "Instruction",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "m57"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-cg3p",
+      "title": "Code général de la propriété des personnes publiques",
+      "desc": "Domaine public/privé, occupation et gestion du patrimoine des personnes publiques.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "cg3p"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-urban",
+      "title": "Code de l’urbanisme",
+      "desc": "Planification, autorisations et contrôle de l’utilisation des sols.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "urban"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-env",
+      "title": "Code de l’environnement",
+      "desc": "Participation, prévention, déchets, eau, biodiversité et évaluation environnementale.",
+      "category": "Environnement & transition",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "env"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-education",
+      "title": "Code de l’éducation",
+      "desc": "Répartition des compétences scolaires, établissements et obligations des collectivités.",
+      "category": "Enfance, école & familles",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "education"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-casf",
+      "title": "Code de l’action sociale et des familles (CASF)",
+      "desc": "Action sociale, aides, petite enfance et établissements sociaux.",
+      "category": "Social, solidarité & culture",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "casf"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-csi",
+      "title": "Code de la sécurité intérieure",
+      "desc": "Sécurité publique, police municipale, vidéoprotection et sécurité civile.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "csi"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-cch",
+      "title": "Code de la construction et de l’habitation (CCH)",
+      "desc": "Sécurité, accessibilité, construction et logement.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Texte / source",
+      "kind": "Code",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "cch"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-rgpd",
+      "title": "Règlement (UE) 2016/679 — RGPD",
+      "desc": "Principes, droits, sécurité et responsabilités des responsables de traitement.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Texte / source",
+      "kind": "Règlement UE",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "rgpd"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-lif",
+      "title": "Loi Informatique et Libertés du 6 janvier 1978",
+      "desc": "Cadre national complémentaire de la protection des données.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Texte / source",
+      "kind": "Loi",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "lif"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-cnil",
+      "title": "CNIL — collectivités territoriales",
+      "desc": "Guides et fiches opérationnelles de conformité RGPD pour les collectivités.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Texte / source",
+      "kind": "Guide officiel",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "cnil"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-rgaa",
+      "title": "RGAA 4.1.2 — accessibilité numérique",
+      "desc": "Référentiel officiel d’accessibilité des services numériques publics ; version 5 annoncée, non présumée en vigueur.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Texte / source",
+      "kind": "Référentiel",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "rgaa"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-legalite",
+      "title": "Contrôle de légalité des actes locaux",
+      "desc": "Procédure, actes transmissibles et ressources préfectorales de la DGCL.",
+      "category": "Institutions & actes locaux",
+      "type": "Texte / source",
+      "kind": "Guide officiel",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "legalite"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-dgcl",
+      "title": "Portail des collectivités locales",
+      "desc": "Documentation ministérielle sur les institutions, finances et gestion locale.",
+      "category": "Institutions & actes locaux",
+      "type": "Texte / source",
+      "kind": "Portail",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "dgcl"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-spmal",
+      "title": "Service Public — congé de maladie du fonctionnaire",
+      "desc": "Fiche administrative mise à jour en septembre 2026, selon versant de la fonction publique.",
+      "category": "Statut & carrière",
+      "type": "Texte / source",
+      "kind": "Fiche officielle",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "spmal"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-sppsc",
+      "title": "Service Public — santé et prévoyance en FPT",
+      "desc": "Participation employeur à la protection sociale complémentaire : règles et calendrier.",
+      "category": "Statut & carrière",
+      "type": "Texte / source",
+      "kind": "Fiche officielle",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "sppsc"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-listecodes",
+      "title": "Liste officielle de tous les codes",
+      "desc": "Annuaire de tous les codes consultables dans leur version officielle sur Légifrance.",
+      "category": "Veille juridique",
+      "type": "Texte / source",
+      "kind": "Portail",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "listecodes"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-jorf",
+      "title": "Journal officiel de la République française",
+      "desc": "Textes publiés au Journal officiel ; point d’entrée pour la veille normative.",
+      "category": "Veille juridique",
+      "type": "Texte / source",
+      "kind": "Portail",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "jorf"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-circulaires",
+      "title": "Circulaires et instructions",
+      "desc": "Doctrine administrative accessible sur Légifrance.",
+      "category": "Veille juridique",
+      "type": "Texte / source",
+      "kind": "Portail",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "circulaires"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-cnfpt",
+      "title": "CNFPT — formation et référentiels métiers",
+      "desc": "Formations, catalogues, ressources et accompagnement des agents territoriaux.",
+      "category": "Statut & carrière",
+      "type": "Texte / source",
+      "kind": "Portail",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "cnfpt"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-anssi",
+      "title": "ANSSI — cybersécurité des collectivités",
+      "desc": "Doctrine, recommandations et ressources nationales de cybersécurité.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Texte / source",
+      "kind": "Guide officiel",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "anssi"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "src-maire2026",
+      "title": "Guide du maire 2026 — DGCL",
+      "desc": "Repères institutionnels et administratifs pour une commune (guide officiel au format PDF).",
+      "category": "Institutions & actes locaux",
+      "type": "Texte / source",
+      "kind": "Guide officiel",
+      "scope": "Référentiel transversal",
+      "sourceIds": [
+        "maire2026"
+      ],
+      "ref": "Source primaire / portail officiel",
+      "check": "Consulter la version en vigueur, les dispositions transitoires et la date de mise à jour affichée par le site source.",
+      "official": true
+    },
+    {
+      "id": "fic-26",
+      "title": "Champ d’application de la FPT",
+      "desc": "Identifier les agents territoriaux et les situations relevant du statut général.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Qualifier employeur, catégorie d’agent et éventuel statut dérogatoire.",
+      "official": false
+    },
+    {
+      "id": "fic-27",
+      "title": "Droits et obligations des agents",
+      "desc": "Neutralité, laïcité, probité, dignité, secret et discrétion professionnels.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Distinguer les obligations statutaires, les règles déontologiques et les sanctions possibles.",
+      "official": false
+    },
+    {
+      "id": "fic-28",
+      "title": "Liberté d’opinion et non-discrimination",
+      "desc": "Garanties de droits et d’égalité de traitement des agents publics.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Examiner le motif de décision et préserver les pièces justificatives.",
+      "official": false
+    },
+    {
+      "id": "fic-29",
+      "title": "Protection fonctionnelle",
+      "desc": "Protection des agents selon les situations prévues par le CGFP.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier les faits, l’imputabilité et l’autorité décisionnaire.",
+      "official": false
+    },
+    {
+      "id": "fic-30",
+      "title": "Signalement et lanceurs d’alerte",
+      "desc": "Procédures de signalement et mesures de protection adaptées.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier le canal de signalement et les obligations de confidentialité.",
+      "official": false
+    },
+    {
+      "id": "fic-31",
+      "title": "Recrutement statutaire",
+      "desc": "Voies d’accès aux emplois territoriaux et principes de recrutement.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier emploi, cadre d’emplois, publicité et conditions du recrutement.",
+      "official": false
+    },
+    {
+      "id": "fic-32",
+      "title": "Concours et examens professionnels",
+      "desc": "Conditions, épreuves et accès aux cadres d’emplois territoriaux.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier le statut particulier et l’avis d’ouverture propre au concours.",
+      "official": false
+    },
+    {
+      "id": "fic-33",
+      "title": "Liste d’aptitude et nomination",
+      "desc": "Inscription, nomination et conditions de prise de fonctions.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Distinguer réussite au concours, liste d’aptitude et recrutement effectif.",
+      "official": false
+    },
+    {
+      "id": "fic-34",
+      "title": "Stage et titularisation",
+      "desc": "Période probatoire, conditions de titularisation et suites possibles.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier le statut particulier et le déroulement de stage.",
+      "official": false
+    },
+    {
+      "id": "fic-35",
+      "title": "Contractuels territoriaux",
+      "desc": "Fondements, durée, renouvellement et garanties des contrats publics.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Contrôler le cas légal de recours et les clauses du contrat.",
+      "official": false
+    },
+    {
+      "id": "fic-36",
+      "title": "Vacance d’emploi et publicité",
+      "desc": "Procédures préalables à la nomination ou au recrutement.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier les obligations de déclaration, de publicité et leurs exceptions.",
+      "official": false
+    },
+    {
+      "id": "fic-37",
+      "title": "Mutation externe et interne",
+      "desc": "Mobilité entre collectivités et changements d’affectation.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier les conditions de candidature, la décision et les délais applicables.",
+      "official": false
+    },
+    {
+      "id": "fic-38",
+      "title": "Détachement",
+      "desc": "Mobilité statutaire hors cadre d’emplois d’origine.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Comparer les corps/cadres d’emplois et les règles de classement.",
+      "official": false
+    },
+    {
+      "id": "fic-39",
+      "title": "Intégration directe",
+      "desc": "Mobilité entre cadres d’emplois lorsque les conditions sont remplies.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier équivalence des catégories et niveaux de recrutement.",
+      "official": false
+    },
+    {
+      "id": "fic-40",
+      "title": "Disponibilité",
+      "desc": "Positions statutaires, durée et conditions de réintégration.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier le motif et les effets sur carrière et rémunération.",
+      "official": false
+    },
+    {
+      "id": "fic-41",
+      "title": "Avancement d’échelon",
+      "desc": "Progression indiciaire selon les règles de carrière.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Consulter la grille du cadre d’emplois et la date d’effet.",
+      "official": false
+    },
+    {
+      "id": "fic-42",
+      "title": "Avancement de grade",
+      "desc": "Promotion dans le grade et critères d’éligibilité.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier tableau d’avancement et lignes directrices de gestion.",
+      "official": false
+    },
+    {
+      "id": "fic-43",
+      "title": "Promotion interne",
+      "desc": "Accès à un cadre d’emplois par promotion interne.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier quotas, conditions et sélection par l’autorité compétente.",
+      "official": false
+    },
+    {
+      "id": "fic-44",
+      "title": "Lignes directrices de gestion (LDG)",
+      "desc": "Orientations de gestion des ressources humaines et de promotion.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Distinguer LDG, délibération et décisions individuelles.",
+      "official": false
+    },
+    {
+      "id": "fic-45",
+      "title": "Entretien professionnel",
+      "desc": "Évaluation annuelle et compte rendu des fonctionnaires concernés.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Contrôler procédure, critères et possibilités de révision.",
+      "official": false
+    },
+    {
+      "id": "fic-46",
+      "title": "Discipline",
+      "desc": "Pouvoir disciplinaire, garanties procédurales et sanctions.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Respecter contradictoire, droit à communication du dossier et compétence.",
+      "official": false
+    },
+    {
+      "id": "fic-47",
+      "title": "Fin de fonctions et retraite",
+      "desc": "Cessation définitive, radiation des cadres et départ en retraite.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier le régime de retraite et la cause de cessation.",
+      "official": false
+    },
+    {
+      "id": "fic-48",
+      "title": "Cumuls d’activités",
+      "desc": "Activités accessoires et règles de prévention des conflits d’intérêts.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier autorisation ou déclaration préalable selon l’activité.",
+      "official": false
+    },
+    {
+      "id": "fic-49",
+      "title": "Statuts particuliers des cadres d’emplois",
+      "desc": "Règles propres aux attachés, rédacteurs, adjoints, agents techniques, etc.",
+      "category": "Statut & carrière",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Consulter le décret du cadre d’emplois et les textes indiciaires consolidés.",
+      "official": false
+    },
+    {
+      "id": "fic-50",
+      "title": "Comité social territorial (CST)",
+      "desc": "Dialogue social et consultations des instances territoriales.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier les seuils, attributions et sujets soumis à consultation.",
+      "official": false
+    },
+    {
+      "id": "fic-51",
+      "title": "Formation spécialisée santé-sécurité",
+      "desc": "Prévention des risques et dialogue social spécialisé.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier les critères d’existence et les compétences de la formation spécialisée.",
+      "official": false
+    },
+    {
+      "id": "fic-52",
+      "title": "CAP et CCP",
+      "desc": "Compétences des commissions pour fonctionnaires ou contractuels.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier cas précis de saisine et qualité des représentants.",
+      "official": false
+    },
+    {
+      "id": "fic-53",
+      "title": "Droit syndical",
+      "desc": "Expression syndicale, autorisations et facilités d’exercice.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Confronter la demande au régime légal et aux nécessités de service.",
+      "official": false
+    },
+    {
+      "id": "fic-54",
+      "title": "Droit de grève",
+      "desc": "Garanties, préavis éventuel et continuité de certains services.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier le service concerné et les règles spécifiques.",
+      "official": false
+    },
+    {
+      "id": "fic-55",
+      "title": "Centre de gestion (CDG)",
+      "desc": "Missions statutaires, gestion mutualisée et accompagnement RH.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier affiliation et compétences réellement exercées par le CDG.",
+      "official": false
+    },
+    {
+      "id": "fic-56",
+      "title": "CNFPT et formation professionnelle",
+      "desc": "Formation statutaire, continue et accompagnement de carrière.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier formation obligatoire et dispositifs d’accès.",
+      "official": false
+    },
+    {
+      "id": "fic-57",
+      "title": "Plan de formation territorial",
+      "desc": "Programmation des formations et articulation avec les besoins des services.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Relier besoins collectifs, obligations statutaires et financement.",
+      "official": false
+    },
+    {
+      "id": "fic-58",
+      "title": "Répertoire des métiers territoriaux",
+      "desc": "Fiches métiers, compétences et parcours professionnels.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Utiliser comme ressource métier ; ne pas le confondre avec une norme juridique.",
+      "official": false
+    },
+    {
+      "id": "fic-59",
+      "title": "Gestion prévisionnelle des emplois",
+      "desc": "Anticipation des effectifs, mobilités et compétences.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Croiser organigramme, emplois budgétaires et stratégie RH.",
+      "official": false
+    },
+    {
+      "id": "fic-60",
+      "title": "Égalité professionnelle",
+      "desc": "Prévention des discriminations et égalité femmes-hommes.",
+      "category": "Dialogue social & organisation RH",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "cnfpt"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier obligations de plan d’action selon la collectivité.",
+      "official": false
+    },
+    {
+      "id": "fic-61",
+      "title": "Durée annuelle de travail",
+      "desc": "Cadre juridique de l’organisation du temps de travail.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Contrôler régime local, délibérations et exceptions légalement prévues.",
+      "official": false
+    },
+    {
+      "id": "fic-62",
+      "title": "Cycles et horaires de travail",
+      "desc": "Organisation des plannings, cycles, repos et permanences.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier garanties minimales et décisions applicables.",
+      "official": false
+    },
+    {
+      "id": "fic-63",
+      "title": "Heures supplémentaires",
+      "desc": "Conditions de réalisation, indemnisation ou récupération.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier cadre d’emplois, délibérations et justificatifs.",
+      "official": false
+    },
+    {
+      "id": "fic-64",
+      "title": "Astreintes et permanences",
+      "desc": "Indemnisation et conditions des sujétions particulières.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier décision locale et textes propres au métier.",
+      "official": false
+    },
+    {
+      "id": "fic-65",
+      "title": "Congés annuels",
+      "desc": "Ouverture, prise et report des congés annuels.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Examiner les règles de service et cas de report.",
+      "official": false
+    },
+    {
+      "id": "fic-66",
+      "title": "Compte épargne-temps (CET)",
+      "desc": "Alimentation et utilisation du CET territorial.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier délibération locale et modalités de liquidation.",
+      "official": false
+    },
+    {
+      "id": "fic-67",
+      "title": "Temps partiel",
+      "desc": "Temps partiel de droit ou soumis à autorisation.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier motif, quotité, durée et conséquences statutaires.",
+      "official": false
+    },
+    {
+      "id": "fic-68",
+      "title": "Télétravail",
+      "desc": "Conditions d’exercice, autorisation et organisation du travail à distance.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier acte local et règles de protection des données.",
+      "official": false
+    },
+    {
+      "id": "fic-69",
+      "title": "Congé de maladie ordinaire",
+      "desc": "Arrêts de travail, rémunération et carence selon le statut.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier règles en vigueur et situation individuelle avant tout calcul.",
+      "official": false
+    },
+    {
+      "id": "fic-70",
+      "title": "Congé de longue maladie et longue durée",
+      "desc": "Congés pour affection grave lorsque les conditions sont remplies.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier type de congé, avis requis et droits.",
+      "official": false
+    },
+    {
+      "id": "fic-71",
+      "title": "Accident de service et maladie professionnelle",
+      "desc": "Reconnaissance, congé pour invalidité temporaire imputable au service (CITIS).",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier l’imputabilité et la procédure médicale/administrative.",
+      "official": false
+    },
+    {
+      "id": "fic-72",
+      "title": "Prévention des risques professionnels",
+      "desc": "Obligations de prévention et santé-sécurité des agents.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier les risques du poste et le document unique.",
+      "official": false
+    },
+    {
+      "id": "fic-73",
+      "title": "Document unique (DUERP)",
+      "desc": "Évaluation des risques et actions de prévention.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Assurer mise à jour, traçabilité et information des agents.",
+      "official": false
+    },
+    {
+      "id": "fic-74",
+      "title": "Médecine du travail territoriale",
+      "desc": "Surveillance et prévention en santé au travail.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Distinguer médecine de prévention et expertise statutaire.",
+      "official": false
+    },
+    {
+      "id": "fic-75",
+      "title": "Handicap et maintien dans l’emploi",
+      "desc": "Aménagement de poste et parcours de maintien dans l’emploi.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Préciser les acteurs et les solutions envisageables.",
+      "official": false
+    },
+    {
+      "id": "fic-76",
+      "title": "Harcèlement et violences au travail",
+      "desc": "Prévention, signalement et protection des personnes concernées.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Garantir confidentialité, impartialité et traitement adapté.",
+      "official": false
+    },
+    {
+      "id": "fic-77",
+      "title": "Congés liés à la parentalité",
+      "desc": "Maternité, paternité, adoption et congé parental.",
+      "category": "Temps de travail & santé",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "spmal"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier statut de l’agent et règles à jour.",
+      "official": false
+    },
+    {
+      "id": "fic-78",
+      "title": "Traitement indiciaire",
+      "desc": "Rémunération fondée sur la grille et la situation statutaire.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Contrôler grade, échelon, indice et temps de travail.",
+      "official": false
+    },
+    {
+      "id": "fic-79",
+      "title": "RIFSEEP et régime indemnitaire",
+      "desc": "IFSE, CIA et régime indemnitaire applicable localement.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier éligibilité du cadre d’emplois et délibérations en vigueur.",
+      "official": false
+    },
+    {
+      "id": "fic-80",
+      "title": "Nouvelle bonification indiciaire (NBI)",
+      "desc": "Bonification pour certains emplois ou fonctions ouvrant droit.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier conditions exactes au regard des fonctions exercées.",
+      "official": false
+    },
+    {
+      "id": "fic-81",
+      "title": "Indemnités et sujétions",
+      "desc": "Régimes indemnitaires spécifiques et indemnités accessoires.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Éviter tout cumul non prévu par les textes.",
+      "official": false
+    },
+    {
+      "id": "fic-82",
+      "title": "Indemnité de résidence et supplément familial",
+      "desc": "Éléments de rémunération soumis à conditions.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier situation et pièces justificatives.",
+      "official": false
+    },
+    {
+      "id": "fic-83",
+      "title": "Protection sociale complémentaire",
+      "desc": "Participation employeur à la prévoyance et à la santé en FPT.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Examiner calendrier, garanties et choix de la collectivité.",
+      "official": false
+    },
+    {
+      "id": "fic-84",
+      "title": "CNRACL et retraite",
+      "desc": "Retraite des fonctionnaires affiliés au régime territorial.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier affiliation et durée de travail.",
+      "official": false
+    },
+    {
+      "id": "fic-85",
+      "title": "IRCANTEC",
+      "desc": "Retraite complémentaire de certains agents contractuels.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Vérifier le statut et le régime d’affiliation.",
+      "official": false
+    },
+    {
+      "id": "fic-86",
+      "title": "Paie des contractuels",
+      "desc": "Rémunération fixée par le contrat et obligations de l’employeur.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Confronter contrat, décisions et cotisations.",
+      "official": false
+    },
+    {
+      "id": "fic-87",
+      "title": "Indemnisation du chômage",
+      "desc": "Droits au chômage après perte d’emploi public selon les situations.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Identifier employeur débiteur et modalités de prise en charge.",
+      "official": false
+    },
+    {
+      "id": "fic-88",
+      "title": "Prévoyance et invalidité",
+      "desc": "Garanties selon les contrats et conditions de couverture.",
+      "category": "Rémunération & protection sociale",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Fonction publique territoriale",
+      "sourceIds": [
+        "cgfp",
+        "sppsc"
+      ],
+      "ref": "Code général de la fonction publique (CGFP)",
+      "check": "Ne pas assimiler contrat de prévoyance et obligation statutaire.",
+      "official": false
+    },
+    {
+      "id": "fic-89",
+      "title": "Libre administration des collectivités",
+      "desc": "Principe constitutionnel et encadrement légal des compétences.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier compétence, intérêt public local et base légale.",
+      "official": false
+    },
+    {
+      "id": "fic-90",
+      "title": "Compétences de la commune",
+      "desc": "Répartition des attributions et articulation avec les autres collectivités.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Identifier la collectivité compétente avant d’agir.",
+      "official": false
+    },
+    {
+      "id": "fic-91",
+      "title": "Conseil municipal",
+      "desc": "Délibérations, quorum, vote, publicité et fonctionnement.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier convocation, ordre du jour et règles de séance.",
+      "official": false
+    },
+    {
+      "id": "fic-92",
+      "title": "Maire et adjoints",
+      "desc": "Fonctions exécutives, pouvoirs propres et délégations.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier habilitation et séparation des compétences.",
+      "official": false
+    },
+    {
+      "id": "fic-93",
+      "title": "Délégations du conseil municipal",
+      "desc": "Actes que le conseil peut déléguer au maire dans les conditions légales.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Contrôler le contenu de la délibération de délégation.",
+      "official": false
+    },
+    {
+      "id": "fic-94",
+      "title": "Arrêtés, décisions et délibérations",
+      "desc": "Choisir la bonne nature d’acte administratif.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Identifier auteur, objet, motivation et signature.",
+      "official": false
+    },
+    {
+      "id": "fic-95",
+      "title": "Publicité et entrée en vigueur des actes",
+      "desc": "Conditions de publication, notification et exécution.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier catégorie de collectivité et régime de publicité.",
+      "official": false
+    },
+    {
+      "id": "fic-96",
+      "title": "Contrôle de légalité préfectoral",
+      "desc": "Transmission obligatoire de certains actes et contrôle préfectoral.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Contrôler les catégories d’actes et les délais.",
+      "official": false
+    },
+    {
+      "id": "fic-97",
+      "title": "Actes dématérialisés — ACTES",
+      "desc": "Télétransmission et procédures dématérialisées.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier accusé de réception et bonne transmission.",
+      "official": false
+    },
+    {
+      "id": "fic-98",
+      "title": "Établissements publics de coopération intercommunale",
+      "desc": "EPCI, mutualisation, transferts de compétences et gouvernance.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier statuts, périmètres et compétences transférées.",
+      "official": false
+    },
+    {
+      "id": "fic-99",
+      "title": "Règlements intérieurs des assemblées",
+      "desc": "Règles de fonctionnement des organes délibérants.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier obligations dépendant de la taille de la collectivité.",
+      "official": false
+    },
+    {
+      "id": "fic-100",
+      "title": "Conflits d’intérêts des élus",
+      "desc": "Prévention des conflits d’intérêts et déports.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Consigner la situation et prévenir la participation irrégulière.",
+      "official": false
+    },
+    {
+      "id": "fic-101",
+      "title": "Responsabilité administrative",
+      "desc": "Risques juridiques liés aux décisions et activités publiques.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Analyser compétence, faute, dommage et lien de causalité.",
+      "official": false
+    },
+    {
+      "id": "fic-102",
+      "title": "Police administrative générale du maire",
+      "desc": "Pouvoirs municipaux de sûreté, sécurité et salubrité.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Distinguer police générale et polices spéciales.",
+      "official": false
+    },
+    {
+      "id": "fic-103",
+      "title": "Intercommunalité et services mutualisés",
+      "desc": "Conventions de mutualisation, gestion et transfert d’agents.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Identifier les textes et actes conventionnels pertinents.",
+      "official": false
+    },
+    {
+      "id": "fic-104",
+      "title": "Élections municipales et installation",
+      "desc": "Règles générales d’installation et de fonctionnement post-électoral.",
+      "category": "Institutions & actes locaux",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "cgct",
+        "legalite"
+      ],
+      "ref": "Code général des collectivités territoriales (CGCT)",
+      "check": "Vérifier le code électoral et les échéances officielles.",
+      "official": false
+    },
+    {
+      "id": "fic-105",
+      "title": "Principes budgétaires locaux",
+      "desc": "Annualité, unité, universalité, spécialité et équilibre réel.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Identifier la catégorie de collectivité et les régimes particuliers.",
+      "official": false
+    },
+    {
+      "id": "fic-106",
+      "title": "Budget primitif (BP)",
+      "desc": "Préparation, vote et transmission du budget initial.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier calendrier et documents obligatoires.",
+      "official": false
+    },
+    {
+      "id": "fic-107",
+      "title": "Débat d’orientations budgétaires",
+      "desc": "Rapport et débat selon la collectivité concernée.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier seuils démographiques et délais applicables.",
+      "official": false
+    },
+    {
+      "id": "fic-108",
+      "title": "Budget supplémentaire et décisions modificatives",
+      "desc": "Ajustements budgétaires en cours d’exercice.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier autorisations, affectations et équilibre.",
+      "official": false
+    },
+    {
+      "id": "fic-109",
+      "title": "Compte financier unique (CFU)",
+      "desc": "Documents de clôture et comptes selon le calendrier de généralisation.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier le régime et les maquettes 2026 à jour.",
+      "official": false
+    },
+    {
+      "id": "fic-110",
+      "title": "Nomenclature M57 — plan de comptes",
+      "desc": "Imputations et classification budgétaire/comptable.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Utiliser le plan de comptes officiel de l’exercice concerné.",
+      "official": false
+    },
+    {
+      "id": "fic-111",
+      "title": "Passage M14 vers M57",
+      "desc": "Transposition d’anciennes imputations budgétaires.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Se référer aux tables DGFiP de transposition officielles.",
+      "official": false
+    },
+    {
+      "id": "fic-112",
+      "title": "Autorisation de programme et crédits de paiement",
+      "desc": "Pilotage pluriannuel des investissements et engagements.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier règles propres à la collectivité et délibérations.",
+      "official": false
+    },
+    {
+      "id": "fic-113",
+      "title": "Séparation ordonnateur et comptable",
+      "desc": "Responsabilités respectives dans la chaîne de la dépense.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Identifier pièces, habilitations et contrôles.",
+      "official": false
+    },
+    {
+      "id": "fic-114",
+      "title": "Dépenses obligatoires",
+      "desc": "Dépenses dont l’inscription est imposée par les textes.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier qualification juridique et conséquences budgétaires.",
+      "official": false
+    },
+    {
+      "id": "fic-115",
+      "title": "Contrôle budgétaire",
+      "desc": "Contrôle de l’équilibre, du vote et de l’exécution des budgets.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier cas de saisine et rôle de la chambre régionale des comptes.",
+      "official": false
+    },
+    {
+      "id": "fic-116",
+      "title": "Régies de recettes et d’avances",
+      "desc": "Création, fonctionnement et contrôle des régies.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Contrôler actes constitutifs, régisseurs et justificatifs.",
+      "official": false
+    },
+    {
+      "id": "fic-117",
+      "title": "Tarifs des services publics locaux",
+      "desc": "Fixation des tarifs et respect des principes applicables.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier compétence, base de calcul et délibération.",
+      "official": false
+    },
+    {
+      "id": "fic-118",
+      "title": "Subventions aux associations",
+      "desc": "Conditions d’octroi, conventions et suivi des subventions.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier intérêt public local, contrôle et formalisation.",
+      "official": false
+    },
+    {
+      "id": "fic-119",
+      "title": "Gestion de la dette locale",
+      "desc": "Emprunts, garanties et sécurisation des contrats.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Vérifier compétence et règles budgétaires.",
+      "official": false
+    },
+    {
+      "id": "fic-120",
+      "title": "Contrôle de gestion et indicateurs",
+      "desc": "Outils d’aide à la décision et de pilotage des services.",
+      "category": "Finances, budget & comptabilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "m57",
+        "cgct"
+      ],
+      "ref": "Référentiel budgétaire et comptable M57 (édition 2026)",
+      "check": "Distinguer exigence juridique et bonne pratique de gestion.",
+      "official": false
+    },
+    {
+      "id": "fic-121",
+      "title": "Principes fondamentaux de la commande publique",
+      "desc": "Liberté d’accès, égalité de traitement et transparence.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Contrôler objectivité de la procédure et traçabilité des choix.",
+      "official": false
+    },
+    {
+      "id": "fic-122",
+      "title": "Définition préalable du besoin",
+      "desc": "Détermination du besoin avant le lancement de la consultation.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Justifier le périmètre, les prestations et l’estimation.",
+      "official": false
+    },
+    {
+      "id": "fic-123",
+      "title": "Sourcing et études préalables",
+      "desc": "Consultation du marché en amont d’un achat.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Prévenir avantage indu et conflits d’intérêts.",
+      "official": false
+    },
+    {
+      "id": "fic-124",
+      "title": "Seuils et procédures",
+      "desc": "Choix des procédures selon le besoin et les montants applicables.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Consulter les seuils publiés à la date de lancement.",
+      "official": false
+    },
+    {
+      "id": "fic-125",
+      "title": "Publicité et mise en concurrence",
+      "desc": "Modalités de publicité adaptées au marché.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Contrôler les règles selon type de marché et montant.",
+      "official": false
+    },
+    {
+      "id": "fic-126",
+      "title": "Accord-cadre et bons de commande",
+      "desc": "Cadres contractuels d’achats récurrents.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Vérifier durée, maximum et fonctionnement contractuel.",
+      "official": false
+    },
+    {
+      "id": "fic-127",
+      "title": "Allotissement",
+      "desc": "Décomposition d’un marché en lots.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Justifier le choix d’allotir ou la dérogation éventuelle.",
+      "official": false
+    },
+    {
+      "id": "fic-128",
+      "title": "Critères d’attribution",
+      "desc": "Analyse des offres selon des critères annoncés.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Conserver méthode de notation et analyse traçable.",
+      "official": false
+    },
+    {
+      "id": "fic-129",
+      "title": "Marchés sans publicité ni concurrence",
+      "desc": "Cas dérogatoires prévus par le code.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Documenter le fondement juridique et les conditions exactes.",
+      "official": false
+    },
+    {
+      "id": "fic-130",
+      "title": "Exécution financière des marchés",
+      "desc": "Prix, avances, acomptes, pénalités et paiements.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Vérifier contrat et CCAG lorsqu’il est applicable.",
+      "official": false
+    },
+    {
+      "id": "fic-131",
+      "title": "Modification des marchés",
+      "desc": "Avenants et modifications autorisées en cours d’exécution.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Vérifier limites et justification juridique.",
+      "official": false
+    },
+    {
+      "id": "fic-132",
+      "title": "Concessions de service public",
+      "desc": "Contrats de concession et gestion de services.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Distinguer concession, régie et marché public.",
+      "official": false
+    },
+    {
+      "id": "fic-133",
+      "title": "Achats durables et clauses sociales",
+      "desc": "Prise en compte d’objectifs environnementaux et sociaux.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Vérifier textes et échéances d’application.",
+      "official": false
+    },
+    {
+      "id": "fic-134",
+      "title": "Contentieux de la passation",
+      "desc": "Recours et prévention du risque contentieux.",
+      "category": "Commande publique",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "ccp",
+        "cgct"
+      ],
+      "ref": "Code de la commande publique",
+      "check": "Conserver preuve de publicité, d’analyse et de décisions.",
+      "official": false
+    },
+    {
+      "id": "fic-135",
+      "title": "Accusé de réception des demandes",
+      "desc": "Formalités d’accueil et de traitement des demandes administratives.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Vérifier exceptions et règles spéciales du service.",
+      "official": false
+    },
+    {
+      "id": "fic-136",
+      "title": "Silence de l’administration",
+      "desc": "Règles de décision implicite et nombreuses exceptions.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Identifier la procédure exacte, sans présumer « silence vaut accord ».",
+      "official": false
+    },
+    {
+      "id": "fic-137",
+      "title": "Motivation des décisions individuelles",
+      "desc": "Cas de décisions devant être motivées en droit et en fait.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Vérifier les garanties de procédure propres à la décision.",
+      "official": false
+    },
+    {
+      "id": "fic-138",
+      "title": "Procédure contradictoire",
+      "desc": "Droit de présenter des observations dans les cas prévus.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Vérifier les exceptions et la situation de l’usager.",
+      "official": false
+    },
+    {
+      "id": "fic-139",
+      "title": "Accès aux documents administratifs",
+      "desc": "Communication et réutilisation sous les conditions légales.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Apprécier les secrets protégés et les données personnelles.",
+      "official": false
+    },
+    {
+      "id": "fic-140",
+      "title": "Saisine électronique",
+      "desc": "Échanges numériques avec les administrés et obligations associées.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Vérifier voies de dépôt et exceptions réglementaires.",
+      "official": false
+    },
+    {
+      "id": "fic-141",
+      "title": "Recours administratifs",
+      "desc": "Recours gracieux ou hiérarchique et voies de droit.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Vérifier délais, mentions et éventuel préalable obligatoire.",
+      "official": false
+    },
+    {
+      "id": "fic-142",
+      "title": "Accueil des usagers",
+      "desc": "Qualité de service, accès aux droits et égalité de traitement.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Distinguer obligations réglementaires et chartes de service.",
+      "official": false
+    },
+    {
+      "id": "fic-143",
+      "title": "Rédaction des actes administratifs",
+      "desc": "Structure d’un arrêté ou d’une décision juridiquement motivée.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Réunir compétence, visas, dispositif et publication.",
+      "official": false
+    },
+    {
+      "id": "fic-144",
+      "title": "Archivage et conservation",
+      "desc": "Classement et durée de conservation des documents administratifs.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Consulter les règles d’archives publiques et les tableaux de gestion.",
+      "official": false
+    },
+    {
+      "id": "fic-145",
+      "title": "Réclamations et médiation",
+      "desc": "Traitement des réclamations et voies de médiation.",
+      "category": "Usagers & procédures",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "crpa",
+        "cgct"
+      ],
+      "ref": "Code des relations entre le public et l’administration (CRPA)",
+      "check": "Déterminer le dispositif applicable et tracer la réponse.",
+      "official": false
+    },
+    {
+      "id": "fic-146",
+      "title": "Délégué à la protection des données (DPO)",
+      "desc": "Désignation et fonctions du délégué au sein d’un organisme public.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Impliquer le DPO dès la conception du traitement.",
+      "official": false
+    },
+    {
+      "id": "fic-147",
+      "title": "Registre des traitements",
+      "desc": "Inventaire documenté des traitements de données personnelles.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Tenir finalité, base légale, destinataires et durées à jour.",
+      "official": false
+    },
+    {
+      "id": "fic-148",
+      "title": "Bases légales de traitement",
+      "desc": "Identifier la base légale adaptée aux missions publiques.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Ne pas utiliser systématiquement le consentement.",
+      "official": false
+    },
+    {
+      "id": "fic-149",
+      "title": "Information des usagers",
+      "desc": "Mentions d’information à fournir sur les traitements.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Prévoir information compréhensible et coordonnées du DPO.",
+      "official": false
+    },
+    {
+      "id": "fic-150",
+      "title": "Droits des personnes",
+      "desc": "Accès, rectification, limitation et autres droits suivant le cas.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Identifier exceptions et canal de traitement des demandes.",
+      "official": false
+    },
+    {
+      "id": "fic-151",
+      "title": "Conservation et minimisation",
+      "desc": "Limiter les données collectées et leur durée de conservation.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Formaliser durées et procédures de purge/archivage.",
+      "official": false
+    },
+    {
+      "id": "fic-152",
+      "title": "Données de santé et des enfants",
+      "desc": "Traitement de données sensibles ou de mineurs.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Vérifier base légale, sécurité et nécessité de chaque donnée.",
+      "official": false
+    },
+    {
+      "id": "fic-153",
+      "title": "Analyse d’impact relative à la protection des données",
+      "desc": "Évaluer les risques des traitements à risque élevé.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Vérifier si une AIPD est requise avant mise en service.",
+      "official": false
+    },
+    {
+      "id": "fic-154",
+      "title": "Sous-traitance et cloud",
+      "desc": "Encadrement des prestataires manipulant des données publiques.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Vérifier clauses et garanties contractuelles RGPD.",
+      "official": false
+    },
+    {
+      "id": "fic-155",
+      "title": "Violations de données",
+      "desc": "Détection, gestion et éventuelle notification des incidents.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Documenter les faits et contacter sans délai DPO/SSI.",
+      "official": false
+    },
+    {
+      "id": "fic-156",
+      "title": "Sécurité des systèmes d’information",
+      "desc": "Mesures de cybersécurité et gestion des accès.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "S’appuyer sur les recommandations ANSSI adaptées.",
+      "official": false
+    },
+    {
+      "id": "fic-157",
+      "title": "Accessibilité des sites publics — RGAA",
+      "desc": "Mise en accessibilité des services de communication au public en ligne.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Consulter la version du RGAA applicable et obligations de publication.",
+      "official": false
+    },
+    {
+      "id": "fic-158",
+      "title": "Déclaration d’accessibilité",
+      "desc": "Obligations de déclaration et de suivi de conformité.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Réaliser un audit ; ne pas confondre déclaration et test automatique.",
+      "official": false
+    },
+    {
+      "id": "fic-159",
+      "title": "Portail famille et données des usagers",
+      "desc": "Protection des dossiers, réservations et informations familiales.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Contrôler rôles, habilitations, conservation et transparence.",
+      "official": false
+    },
+    {
+      "id": "fic-160",
+      "title": "Vidéoprotection et données",
+      "desc": "Cadres cumulés de sécurité intérieure et de protection des données.",
+      "category": "Numérique, RGPD & accessibilité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "rgpd",
+        "cnil",
+        "rgaa",
+        "anssi",
+        "lif"
+      ],
+      "ref": "Règlement (UE) 2016/679 — RGPD",
+      "check": "Identifier l’autorisation et le régime selon finalité et lieux.",
+      "official": false
+    },
+    {
+      "id": "fic-161",
+      "title": "Inscription scolaire",
+      "desc": "Compétences relatives à l’inscription et à la scolarisation.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier pièces exigibles, domiciliation et cas particuliers.",
+      "official": false
+    },
+    {
+      "id": "fic-162",
+      "title": "Carte scolaire et sectorisation",
+      "desc": "Organisation de la répartition des élèves selon compétences.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier décisions territoriales et règles de dérogation.",
+      "official": false
+    },
+    {
+      "id": "fic-163",
+      "title": "Cantine et restauration scolaire",
+      "desc": "Organisation facultative ou réglementée des repas scolaires.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier règles d’accès, tarifs, santé et sécurité sanitaire.",
+      "official": false
+    },
+    {
+      "id": "fic-164",
+      "title": "Accueil périscolaire",
+      "desc": "Encadrement et organisation de l’accueil avant/après l’école.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier régimes déclaratifs et d’encadrement applicables.",
+      "official": false
+    },
+    {
+      "id": "fic-165",
+      "title": "Accueils collectifs de mineurs (ACM)",
+      "desc": "Déclaration, encadrement et sécurité des accueils.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Identifier le type d’ACM et les textes jeunesse et sports.",
+      "official": false
+    },
+    {
+      "id": "fic-166",
+      "title": "Projet d’accueil individualisé (PAI)",
+      "desc": "Prise en compte de besoins de santé dans les temps scolaires ou associés.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Coordonner école, responsables légaux et services compétents.",
+      "official": false
+    },
+    {
+      "id": "fic-167",
+      "title": "Allergies alimentaires et panier-repas",
+      "desc": "Gestion des situations individuelles de santé en restauration.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Articuler PAI, protocole local et hygiène alimentaire.",
+      "official": false
+    },
+    {
+      "id": "fic-168",
+      "title": "Dossier famille et justificatifs",
+      "desc": "Collecte de pièces pour prestations et inscriptions locales.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Appliquer proportionnalité et règles RGPD.",
+      "official": false
+    },
+    {
+      "id": "fic-169",
+      "title": "Tarification au quotient familial",
+      "desc": "Tarification sociale lorsqu’elle est décidée et légalement encadrée.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier délibération, critères et justificatifs nécessaires.",
+      "official": false
+    },
+    {
+      "id": "fic-170",
+      "title": "Facturation, avoirs et annulations",
+      "desc": "Règlement de service, facturation et modifications de réservation.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier règlement intérieur et délibération tarifaire.",
+      "official": false
+    },
+    {
+      "id": "fic-171",
+      "title": "Accueil des enfants en situation de handicap",
+      "desc": "Accessibilité et adaptation des services aux besoins des enfants.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Coordonner droits, accompagnements et capacités d’accueil.",
+      "official": false
+    },
+    {
+      "id": "fic-172",
+      "title": "Relais petite enfance (RPE)",
+      "desc": "Information et accompagnement des familles et professionnels.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Vérifier missions et cadre réglementaire de la petite enfance.",
+      "official": false
+    },
+    {
+      "id": "fic-173",
+      "title": "Établissements d’accueil du jeune enfant",
+      "desc": "Fonctionnement et exigences propres aux structures de petite enfance.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Consulter CASF et règles sectorielles applicables.",
+      "official": false
+    },
+    {
+      "id": "fic-174",
+      "title": "Protection des données des familles",
+      "desc": "Dossiers de mineurs, responsables légaux et accès aux informations.",
+      "category": "Enfance, école & familles",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "education",
+        "casf",
+        "rgpd"
+      ],
+      "ref": "Code de l’éducation",
+      "check": "Limiter les accès et documenter les transmissions.",
+      "official": false
+    },
+    {
+      "id": "fic-175",
+      "title": "Plan local d’urbanisme (PLU/PLUi)",
+      "desc": "Élaboration et application des documents d’urbanisme.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Vérifier collectivité compétente et procédures en cours.",
+      "official": false
+    },
+    {
+      "id": "fic-176",
+      "title": "Permis de construire",
+      "desc": "Instruction et délivrance des autorisations d’urbanisme.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Identifier autorité compétente et pièces exigibles.",
+      "official": false
+    },
+    {
+      "id": "fic-177",
+      "title": "Déclaration préalable",
+      "desc": "Procédure simplifiée pour certains travaux et aménagements.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Vérifier qualification du projet et délais.",
+      "official": false
+    },
+    {
+      "id": "fic-178",
+      "title": "Certificat d’urbanisme",
+      "desc": "Information sur les règles applicables à un terrain.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Distinguer certificat d’information et opérationnel.",
+      "official": false
+    },
+    {
+      "id": "fic-179",
+      "title": "Droit de préemption urbain",
+      "desc": "Acquisition prioritaire dans les conditions légales.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Vérifier institution, délégation et motivation de la décision.",
+      "official": false
+    },
+    {
+      "id": "fic-180",
+      "title": "Enquête publique et participation",
+      "desc": "Information et consultation dans les projets concernés.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Identifier procédure, calendrier et autorité responsable.",
+      "official": false
+    },
+    {
+      "id": "fic-181",
+      "title": "Domaine public communal",
+      "desc": "Affectation, occupation et règles de gestion du domaine.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Distinguer domaine public et domaine privé.",
+      "official": false
+    },
+    {
+      "id": "fic-182",
+      "title": "Autorisations d’occupation du domaine public",
+      "desc": "Titres, redevances et conditions d’occupation.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Vérifier caractère précaire et règles de publicité selon l’usage.",
+      "official": false
+    },
+    {
+      "id": "fic-183",
+      "title": "Biens immobiliers et cessions",
+      "desc": "Acquisitions, délibérations et cessions des biens communaux.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Vérifier évaluation et formalités préalables.",
+      "official": false
+    },
+    {
+      "id": "fic-184",
+      "title": "Bâtiments publics et ERP",
+      "desc": "Sécurité et accessibilité des établissements recevant du public.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Contrôler catégorie ERP et obligations de l’exploitant.",
+      "official": false
+    },
+    {
+      "id": "fic-185",
+      "title": "Logement et habitat",
+      "desc": "Compétences locales et dispositifs d’urbanisme/habitat.",
+      "category": "Urbanisme & patrimoine",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "urban",
+        "cg3p",
+        "cch"
+      ],
+      "ref": "Code de l’urbanisme",
+      "check": "Vérifier articulation avec État, EPCI et organismes spécialisés.",
+      "official": false
+    },
+    {
+      "id": "fic-186",
+      "title": "Police municipale",
+      "desc": "Missions, agents et coordination avec les forces de l’État.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Vérifier compétences, agréments et habilitations.",
+      "official": false
+    },
+    {
+      "id": "fic-187",
+      "title": "Police générale du maire",
+      "desc": "Sécurité, salubrité et tranquillité publiques.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "S’assurer de nécessité et proportionnalité de la mesure.",
+      "official": false
+    },
+    {
+      "id": "fic-188",
+      "title": "Vidéoprotection sur voie publique",
+      "desc": "Dispositifs soumis au Code de la sécurité intérieure.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Contrôler autorisations et accès aux images.",
+      "official": false
+    },
+    {
+      "id": "fic-189",
+      "title": "Centre de supervision urbain (CSU)",
+      "desc": "Exploitation opérationnelle et sécurité des images.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Vérifier habilitations, traçabilité et durées de conservation.",
+      "official": false
+    },
+    {
+      "id": "fic-190",
+      "title": "Manifestations et événements publics",
+      "desc": "Conditions de sécurité et répartition des responsabilités.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Prévoir arrêtés et dispositifs adaptés au contexte.",
+      "official": false
+    },
+    {
+      "id": "fic-191",
+      "title": "Police de la circulation et stationnement",
+      "desc": "Pouvoirs, arrêtés et signalisation.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Vérifier compétence et mesures proportionnées.",
+      "official": false
+    },
+    {
+      "id": "fic-192",
+      "title": "Plan communal de sauvegarde (PCS)",
+      "desc": "Préparation communale à la gestion de crise.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Identifier obligations et articulation intercommunale.",
+      "official": false
+    },
+    {
+      "id": "fic-193",
+      "title": "Prévention de la délinquance",
+      "desc": "Coordination partenariale et dispositifs locaux.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Déterminer partage de compétence et protection des informations.",
+      "official": false
+    },
+    {
+      "id": "fic-194",
+      "title": "Réglementation des débits de boissons",
+      "desc": "Pouvoirs locaux liés aux débits et événements.",
+      "category": "Sécurité, police & tranquillité",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "csi",
+        "cgct",
+        "rgpd"
+      ],
+      "ref": "Code de la sécurité intérieure",
+      "check": "Vérifier autorisations et police spéciale applicable.",
+      "official": false
+    },
+    {
+      "id": "fic-195",
+      "title": "Centre communal d’action sociale (CCAS)",
+      "desc": "Missions et gouvernance de l’action sociale communale.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Vérifier compétences et actes du CCAS.",
+      "official": false
+    },
+    {
+      "id": "fic-196",
+      "title": "Aides sociales facultatives",
+      "desc": "Aides décidées au niveau local selon conditions.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Vérifier règlement d’attribution et égalité de traitement.",
+      "official": false
+    },
+    {
+      "id": "fic-197",
+      "title": "Domiciliation administrative",
+      "desc": "Domiciliation des personnes sans domicile stable selon règles du CASF.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Vérifier l’organisme compétent et la procédure.",
+      "official": false
+    },
+    {
+      "id": "fic-198",
+      "title": "Petite enfance et modes d’accueil",
+      "desc": "Cadre de l’accueil individuel et collectif des jeunes enfants.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Identifier compétence et règles propres aux structures.",
+      "official": false
+    },
+    {
+      "id": "fic-199",
+      "title": "Handicap et accessibilité des services",
+      "desc": "Accès des personnes handicapées aux services publics.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Distinguer accessibilité bâtimentaire, numérique et organisationnelle.",
+      "official": false
+    },
+    {
+      "id": "fic-200",
+      "title": "Bibliothèques et lecture publique",
+      "desc": "Organisation des services culturels de lecture publique.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Vérifier compétences, accès et cadre du service.",
+      "official": false
+    },
+    {
+      "id": "fic-201",
+      "title": "Archives publiques territoriales",
+      "desc": "Collecte, conservation et communicabilité des archives publiques.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Appliquer les règles du patrimoine et de protection des données.",
+      "official": false
+    },
+    {
+      "id": "fic-202",
+      "title": "Équipements sportifs municipaux",
+      "desc": "Gestion, sécurité et conditions d’utilisation des équipements.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Vérifier réglementation du sport et ERP.",
+      "official": false
+    },
+    {
+      "id": "fic-203",
+      "title": "Subventions culturelles et sportives",
+      "desc": "Financement associatif et suivi des partenaires.",
+      "category": "Social, solidarité & culture",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "casf",
+        "cgct"
+      ],
+      "ref": "Code de l’action sociale et des familles (CASF)",
+      "check": "Documenter intérêt public local et contrôles d’usage.",
+      "official": false
+    },
+    {
+      "id": "fic-204",
+      "title": "Déchets et collecte",
+      "desc": "Répartition des compétences et obligations de gestion des déchets.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Vérifier transfert de compétence à l’EPCI.",
+      "official": false
+    },
+    {
+      "id": "fic-205",
+      "title": "Eau potable et assainissement",
+      "desc": "Gestion des services et organisation territoriale.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Vérifier compétence, délégation et calendrier légal.",
+      "official": false
+    },
+    {
+      "id": "fic-206",
+      "title": "Nuisances sonores",
+      "desc": "Pouvoirs de police et règles particulières de prévention.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Identifier l’autorité et les éléments factuels.",
+      "official": false
+    },
+    {
+      "id": "fic-207",
+      "title": "Biodiversité et espaces verts",
+      "desc": "Protection et gestion des milieux naturels.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Vérifier zonages et restrictions locales applicables.",
+      "official": false
+    },
+    {
+      "id": "fic-208",
+      "title": "Transition écologique locale",
+      "desc": "Planification, énergie et climat dans les compétences territoriales.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Identifier plans obligatoires et périmètre de compétence.",
+      "official": false
+    },
+    {
+      "id": "fic-209",
+      "title": "Évaluation environnementale des projets",
+      "desc": "Études, participation et décisions selon les projets.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Vérifier seuils et procédures sans présumer d’exemption.",
+      "official": false
+    },
+    {
+      "id": "fic-210",
+      "title": "Sobriété énergétique des bâtiments",
+      "desc": "Gestion des consommations et obligations du parc public.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Vérifier catégorie de bâtiment et réglementation dédiée.",
+      "official": false
+    },
+    {
+      "id": "fic-211",
+      "title": "Risques naturels et prévention",
+      "desc": "Prévention, information et plans locaux des risques.",
+      "category": "Environnement & transition",
+      "type": "Fiche pratique",
+      "kind": "Repère thématique",
+      "scope": "Collectivités territoriales",
+      "sourceIds": [
+        "env",
+        "cgct"
+      ],
+      "ref": "Code de l’environnement",
+      "check": "Articuler urbanisme, prévention et sécurité civile.",
+      "official": false
+    }
+  ]
+}

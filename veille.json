@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "status": "initialisation_requise",
+  "source_name": "Journal officiel — DILA JORFSIMPLE",
+  "source_url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/",
+  "generated_at": null,
+  "last_success": null,
+  "latest_archive_date": null,
+  "processed_archives": [],
+  "items": [],
+  "warnings": [],
+  "caveat": "La synchronisation des publications démarre après l'exécution de maj_veille.py ou de l'action GitHub. Les fiches thématiques ne sont pas réécrites automatiquement."
+}
