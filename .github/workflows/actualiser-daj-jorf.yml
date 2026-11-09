@@ -32,7 +32,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Tester les deux collecteurs
-        run: python -m unittest discover -s tests -v
+        run: python -m unittest discover -s . -p "test_maj_*.py" -v
       - name: Actualiser les publications du Journal officiel (DILA)
         id: jorf
         continue-on-error: true
