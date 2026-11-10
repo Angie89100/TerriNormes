@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-09T16:17:16Z",
+  "last_run_at": "2026-11-10T14:51:51Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,8 +47,8 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-09T16:17:16Z",
-      "last_success_at": "2026-11-09T16:17:16Z",
+      "last_attempt_at": "2026-11-10T14:51:51Z",
+      "last_success_at": "2026-11-10T14:51:51Z",
       "baseline_at": "2026-11-06T10:48:15Z",
       "last_change_at": null,
       "digest": "eeb00448c0f0911e8bcdd811772273089012b7dfdb8fa56fe8dc4df5d240d419",
@@ -70,11 +70,11 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-09T16:17:16Z",
-      "last_success_at": "2026-11-09T16:17:16Z",
+      "last_attempt_at": "2026-11-10T14:51:51Z",
+      "last_success_at": "2026-11-10T14:51:51Z",
       "baseline_at": "2026-11-06T09:39:55Z",
-      "last_change_at": "2026-11-09T10:49:55Z",
-      "digest": "9e81f1617d40737eb89912c84d727c1e9d7e40a490f9b5cdd0dd94ce3585284c",
+      "last_change_at": "2026-11-10T14:51:51Z",
+      "digest": "844e5cb2bd3b7cc93942dcdc94b5fd21751f1d4db1adc677af39eb11b36e5f27",
       "history": [
         {
           "date": "2026-11-06T09:39:55Z",
@@ -95,10 +95,14 @@
         {
           "date": "2026-11-09T10:49:55Z",
           "evenement": "page_modifiee"
+        },
+        {
+          "date": "2026-11-10T14:51:51Z",
+          "evenement": "page_modifiee"
         }
       ],
       "last_error": null,
-      "status": "sans_nouveau_changement"
+      "status": "page_modifiee"
     },
     {
       "id": "cnil-collectivites",
@@ -109,19 +113,23 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-09T16:17:16Z",
-      "last_success_at": "2026-11-09T16:17:16Z",
+      "last_attempt_at": "2026-11-10T14:51:51Z",
+      "last_success_at": "2026-11-10T14:51:51Z",
       "baseline_at": "2026-11-06T09:39:55Z",
-      "last_change_at": null,
-      "digest": "26344bad483b1443ab5d810d9f6f0b5b59bf72ecdeacfd2703bbb282bc14e46d",
+      "last_change_at": "2026-11-10T14:51:51Z",
+      "digest": "fe979fd1d950da3a66c2cfd13df875da02993b05d4f197c284803fd79ede4258",
       "history": [
         {
           "date": "2026-11-06T09:39:55Z",
           "evenement": "premiere_empreinte"
+        },
+        {
+          "date": "2026-11-10T14:51:51Z",
+          "evenement": "page_modifiee"
         }
       ],
       "last_error": null,
-      "status": "sans_nouveau_changement"
+      "status": "page_modifiee"
     }
   ]
 }
