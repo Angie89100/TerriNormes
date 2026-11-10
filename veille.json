@@ -3,13 +3,418 @@
   "status": "ok",
   "source_name": "Journal officiel — DILA JORFSIMPLE",
   "source_url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/",
-  "generated_at": "2026-11-09T15:00:34+00:00",
-  "last_success": "2026-11-09T14:50:58+00:00",
-  "latest_archive_date": "2026-11-08",
+  "generated_at": "2026-11-10T15:40:53+00:00",
+  "last_success": "2026-11-10T15:40:53+00:00",
+  "latest_archive_date": "2026-11-10",
   "processed_archives": [
-    "JORFSIMPLE_20261108-210452.tar.gz"
+    "JORFSIMPLE_20261108-210452.tar.gz",
+    "JORFSIMPLE_20261109-212854.tar.gz",
+    "JORFSIMPLE_20261110-002231.tar.gz"
   ],
   "items": [
+    {
+      "id": "JORFTEXT000055075465",
+      "title": "Arrêté du 6 novembre 2026 portant renouvellement d'agrément national d'associations et unions d'associations représentant les usagers dans les instances hospitalières ou de santé publique",
+      "date": "2026-11-10",
+      "nature": "ARRETE",
+      "nor": "SFHZ2629830A",
+      "domains": [
+        "Usagers & procédures"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075465",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-10"
+    },
+    {
+      "id": "JORFTEXT000055070453",
+      "title": "Arrêté du 27 octobre 2026 portant nomination sur l'emploi de directeur régional de l'économie, de l'emploi, du travail et des solidarités de Nouvelle Aquitaine (prolongation de mandat) (Rectificatif)",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ECOH2622464Z",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070453",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055070244",
+      "title": "Arrêté du 2 novembre 2026 autorisant l'ouverture des concours externe et interne pour le recrutement de directeurs pénitentiaires d'insertion et de probation au titre de l'année 2027",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "JUSK2624060A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070244",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055070195",
+      "title": "Décret du 7 novembre 2026 chargeant le ministre délégué chargé de la transition écologique auprès de la ministre de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature de l'intérim des fonctions de porte-parole du Gouvernement auprès du Premier ministre",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "PRMX2629897D",
+      "domains": [
+        "Environnement & développement durable"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070195",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069663",
+      "title": "Arrêté du 3 novembre 2026 portant ouverture de crédits de fonds de concours",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "CPPB2629163A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069663",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069629",
+      "title": "Arrêté du 3 novembre 2026 désignant l'opération de restructuration au sein de la direction interdépartementale des routes Nord ouvrant droit aux dispositifs indemnitaires et d'accompagnement des agents dans le cadre de la suppression de l'équipe spécialisée travaux (EST) du CIGT de Reims et de la fermeture du site de Beauvais",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ATDK2628319A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069629",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069200",
+      "title": "Décret n° 2026-1035 du 6 novembre 2026 portant modification du décret n° 2024-505 du 3 juin 2024 portant autorisation environnementale relative à la réalisation de travaux préparatoires nécessaires à l'implantation d'une paire d'unités de production nucléaire de type EPR2, sur le site de Penly et la commune de Petit-Caux",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "TECP2629230D",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069200",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069189",
+      "title": "Décret n° 2026-1034 du 4 novembre 2026 portant renouvellement de classement du parc naturel régional Livradois-Forez (région Auvergne-Rhône-Alpes)",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "TECL2619583D",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069189",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069121",
+      "title": "Arrêté du 30 octobre 2026 modifiant l'arrêté du 27 février 2024 fixant le programme, la nature des épreuves, les règles d'organisation générale et le fonctionnement des jurys des concours de recrutement dans le grade de technicien supérieur d'études et de fabrications de 3e classe du corps des techniciens supérieurs d'études et de fabrications du ministère de la défense",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ARMH2628177A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069121",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069106",
+      "title": "Arrêté du 30 octobre 2026 modifiant l'arrêté du 27 février 2024 fixant le programme, la nature des épreuves, les règles d'organisation générale et le fonctionnement des jurys des concours pour le recrutement dans le grade de technicien supérieur d'études et de fabrication de 2e classe du corps des techniciens supérieurs d'études et de fabrication du ministère de la défense",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ARMH2628014A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069106",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055069088",
+      "title": "Arrêté du 30 octobre 2026 modifiant l'arrêté du 27 février 2024 fixant le programme, la nature des épreuves, les règles d'organisation générale et le fonctionnement des jurys des concours pour le recrutement dans le corps des ingénieurs civils de la défense",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ARMH2627986A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055069088",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000055047724",
+      "title": "Arrêté du 27 octobre 2026 portant nomination sur l'emploi de directeur régional de l'économie, de l'emploi, du travail et des solidarités d'Occitanie (prolongation de mandat)",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ECOH2622464A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055047724",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049950683",
+      "title": "Arrêté du 8 juillet 2024 fixant les conditions et les modalités de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "TFPF2418580A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049950683",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049895142",
+      "title": "Décret n° 2024-759 du 7 juillet 2024 fixant les conditions de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "TFPF2412206D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049895142",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049655806",
+      "title": "Décret n° 2024-505 du 3 juin 2024 portant autorisation environnementale relative à la réalisation de travaux préparatoires nécessaires à l'implantation d'une paire d'unités de production nucléaire de type EPR2, sur le site de Penly et la commune de Petit-Caux",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "TREL2412845D",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049655806",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049232659",
+      "title": "Arrêté du 27 février 2024 fixant le programme, la nature des épreuves, les règles d'organisation générale et le fonctionnement des jurys des concours de recrutement dans le grade de technicien supérieur d'études et de fabrications de 3e classe du corps des techniciens supérieurs d'études et de fabrications du ministère de la défense",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ARMH2404424A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049232659",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049232621",
+      "title": "Arrêté du 27 février 2024 fixant le programme, la nature des épreuves, les règles d'organisation générale et le fonctionnement des jurys des concours de recrutement dans le grade de technicien supérieur d'études et de fabrications de 2e classe du corps des techniciens supérieurs d'études et de fabrications du ministère de la défense",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ARMH2404420A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049232621",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049232585",
+      "title": "Arrêté du 27 février 2024 fixant le programme, la nature des épreuves, les règles d'organisation générale et le fonctionnement des jurys des concours pour le recrutement dans le corps des ingénieurs civils de la défense",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "ARMH2404393A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049232585",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000049068301",
+      "title": "Décret n° 2024-61 du 31 janvier 2024 relatif au contrôle de conformité aux règles d'urbanisme de la réalisation d'un réacteur électronucléaire",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "TREL2329274D",
+      "domains": [
+        "Urbanisme & patrimoine"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049068301",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000043877119",
+      "title": "Décret n° 2021-1002 du 30 juillet 2021 relatif aux critères objectifs de définition des catégories de salariés bénéficiaires d'une couverture de protection sociale complémentaire collective",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "SSAS2115429D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043877119",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000042393336",
+      "title": "Arrêté du 2 octobre 2020 relatif aux règles d'organisation générale, à la nature et au programme des épreuves des concours pour le recrutement de directeurs pénitentiaires d'insertion et de probation",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "JUSK2025916A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042393336",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000039667791",
+      "title": "Décret n° 2019-1444 du 23 décembre 2019 instituant une indemnité d'accompagnement à la mobilité fonctionnelle au sein de la fonction publique d'Etat",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "CPAF1926544D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039667791",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000038175450",
+      "title": "Arrêté du 26 février 2019 fixant les montants de la prime de restructuration de service et de l'allocation d'aide à la mobilité du conjoint instituées par le décret n° 2008-366 du 17 avril 2008",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "CPAF1834077A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038175450",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000036252351",
+      "title": "Arrêté du 22 décembre 2017 fixant les conditions de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique de l'Etat",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "CPAF1723700A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036252351",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000031052756",
+      "title": "Arrêté du 21 juillet 2015 relatif aux systèmes d'assainissement collectif et aux installations d'assainissement non collectif, à l'exception des installations d'assainissement non collectif recevant une charge brute de pollution organique inférieure ou égale à 1,2 kg/j de DBO5",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "DEVL1429608A",
+      "domains": [
+        "Environnement & développement durable"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031052756",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000021262538",
+      "title": "Décret n° 2009-1388 du 11 novembre 2009 portant dispositions statutaires communes à divers corps de fonctionnaires de la catégorie B de la fonction publique de l'Etat",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "BCFF0918003D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021262538",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000020176733",
+      "title": "Arrêté du 30 décembre 2008 portant institution de régies d'avances et de recettes auprès des services déconcentrés (directions interrégionales et départementale) de la protection judiciaire de la jeunesse",
+      "date": "2026-11-09",
+      "nature": "ARRETE",
+      "nor": "JUSF0831499A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000020176733",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000018663787",
+      "title": "Décret n° 2008-366 du 17 avril 2008 instituant une prime de restructuration de service et une allocation d'aide à la mobilité du conjoint",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "BCFF0807919D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000018663787",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000000652964",
+      "title": "Décret n° 2007-1373 du 19 septembre 2007 relatif à la participation de l'Etat et de ses établissements publics au financement de la protection sociale complémentaire de leurs personnels",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "BCFF0751468D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000652964",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000000314853",
+      "title": "Loi du 23 décembre 1901 REPRIMANT LES FRAUDES DANS LES EXAMENS ET CONCOURS PUBLICS",
+      "date": "2026-11-09",
+      "nature": "LOI",
+      "nor": "",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000314853",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
+    {
+      "id": "JORFTEXT000000272471",
+      "title": "Décret n° 2007-196 du 13 février 2007 relatif aux équivalences de diplômes requises pour se présenter aux concours d'accès aux corps et cadres d'emplois de la fonction publique",
+      "date": "2026-11-09",
+      "nature": "DECRET",
+      "nor": "FPPA0700009D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000272471",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-09"
+    },
     {
       "id": "JORFTEXT000055070619",
       "title": "Décision n° 2026/104/LIAISON ROUTIERE ENTRE LA RN88 ET LA RD911/2 du 4 novembre 2026 portant désignation du garant de la concertation continue relative au projet d'aménagement d'une liaison routière entre la RN88 (giratoire du Lachet sur la commune d'Olemps) et la RD911 (commune de Flavin) dans l'Aveyron (12)",
@@ -33,45 +438,6 @@
         "Institutions & actes locaux"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070507",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-08"
-    },
-    {
-      "id": "JORFTEXT000055070244",
-      "title": "Arrêté du 2 novembre 2026 autorisant l'ouverture des concours externe et interne pour le recrutement de directeurs pénitentiaires d'insertion et de probation au titre de l'année 2027",
-      "date": "2026-11-08",
-      "nature": "ARRETE",
-      "nor": "JUSK2624060A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070244",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-08"
-    },
-    {
-      "id": "JORFTEXT000049950683",
-      "title": "Arrêté du 8 juillet 2024 fixant les conditions et les modalités de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique",
-      "date": "2026-11-08",
-      "nature": "ARRETE",
-      "nor": "TFPF2418580A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049950683",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-08"
-    },
-    {
-      "id": "JORFTEXT000049895142",
-      "title": "Décret n° 2024-759 du 7 juillet 2024 fixant les conditions de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique",
-      "date": "2026-11-08",
-      "nature": "DECRET",
-      "nor": "TFPF2412206D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049895142",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-08"
     },
@@ -124,19 +490,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591161",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-08"
-    },
-    {
-      "id": "JORFTEXT000042393336",
-      "title": "Arrêté du 2 octobre 2020 relatif aux règles d'organisation générale, à la nature et au programme des épreuves des concours pour le recrutement de directeurs pénitentiaires d'insertion et de probation",
-      "date": "2026-11-08",
-      "nature": "ARRETE",
-      "nor": "JUSK2025916A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042393336",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-08"
     },
