@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-10T14:51:51Z",
+  "last_run_at": "2026-11-11T14:20:56Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,8 +47,8 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-10T14:51:51Z",
-      "last_success_at": "2026-11-10T14:51:51Z",
+      "last_attempt_at": "2026-11-11T14:20:56Z",
+      "last_success_at": "2026-11-11T14:20:56Z",
       "baseline_at": "2026-11-06T10:48:15Z",
       "last_change_at": null,
       "digest": "eeb00448c0f0911e8bcdd811772273089012b7dfdb8fa56fe8dc4df5d240d419",
@@ -70,11 +70,11 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-10T14:51:51Z",
-      "last_success_at": "2026-11-10T14:51:51Z",
+      "last_attempt_at": "2026-11-11T14:20:56Z",
+      "last_success_at": "2026-11-11T14:20:56Z",
       "baseline_at": "2026-11-06T09:39:55Z",
-      "last_change_at": "2026-11-10T14:51:51Z",
-      "digest": "844e5cb2bd3b7cc93942dcdc94b5fd21751f1d4db1adc677af39eb11b36e5f27",
+      "last_change_at": "2026-11-11T14:20:56Z",
+      "digest": "2fed33f9d24493fd6998da5ca03d705a4c28e00add5a488b2e26b9d0b1609481",
       "history": [
         {
           "date": "2026-11-06T09:39:55Z",
@@ -99,6 +99,10 @@
         {
           "date": "2026-11-10T14:51:51Z",
           "evenement": "page_modifiee"
+        },
+        {
+          "date": "2026-11-11T14:20:56Z",
+          "evenement": "page_modifiee"
         }
       ],
       "last_error": null,
@@ -113,8 +117,8 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-10T14:51:51Z",
-      "last_success_at": "2026-11-10T14:51:51Z",
+      "last_attempt_at": "2026-11-11T14:20:56Z",
+      "last_success_at": "2026-11-11T14:20:56Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-10T14:51:51Z",
       "digest": "fe979fd1d950da3a66c2cfd13df875da02993b05d4f197c284803fd79ede4258",
@@ -129,7 +133,7 @@
         }
       ],
       "last_error": null,
-      "status": "page_modifiee"
+      "status": "sans_nouveau_changement"
     }
   ]
 }
