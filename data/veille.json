@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-12T15:13:18Z",
+  "last_run_at": "2026-11-13T14:33:52Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,8 +47,8 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-12T15:13:18Z",
-      "last_success_at": "2026-11-12T15:13:18Z",
+      "last_attempt_at": "2026-11-13T14:33:52Z",
+      "last_success_at": "2026-11-13T14:33:52Z",
       "baseline_at": "2026-11-06T10:48:15Z",
       "last_change_at": null,
       "digest": "eeb00448c0f0911e8bcdd811772273089012b7dfdb8fa56fe8dc4df5d240d419",
@@ -70,11 +70,11 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-12T15:13:18Z",
-      "last_success_at": "2026-11-12T15:13:18Z",
+      "last_attempt_at": "2026-11-13T14:33:52Z",
+      "last_success_at": "2026-11-13T14:33:52Z",
       "baseline_at": "2026-11-06T09:39:55Z",
-      "last_change_at": "2026-11-12T15:13:18Z",
-      "digest": "ad268752cda0ebf00ad88958a3c5c05af9ec40152056963565ed9bcad76003bc",
+      "last_change_at": "2026-11-13T14:33:52Z",
+      "digest": "dca355629abe2762d18a32bb234a7eea109c63324e7b95081f5fa491faeb8771",
       "history": [
         {
           "date": "2026-11-06T09:39:55Z",
@@ -107,6 +107,10 @@
         {
           "date": "2026-11-12T15:13:18Z",
           "evenement": "page_modifiee"
+        },
+        {
+          "date": "2026-11-13T14:33:52Z",
+          "evenement": "page_modifiee"
         }
       ],
       "last_error": null,
@@ -121,8 +125,8 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-12T15:13:18Z",
-      "last_success_at": "2026-11-12T15:13:18Z",
+      "last_attempt_at": "2026-11-13T14:33:52Z",
+      "last_success_at": "2026-11-13T14:33:52Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-10T14:51:51Z",
       "digest": "fe979fd1d950da3a66c2cfd13df875da02993b05d4f197c284803fd79ede4258",
