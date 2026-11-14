@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-13T14:33:52Z",
+  "last_run_at": "2026-11-14T13:30:13Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,8 +47,8 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-13T14:33:52Z",
-      "last_success_at": "2026-11-13T14:33:52Z",
+      "last_attempt_at": "2026-11-14T13:30:13Z",
+      "last_success_at": "2026-11-14T13:30:13Z",
       "baseline_at": "2026-11-06T10:48:15Z",
       "last_change_at": null,
       "digest": "eeb00448c0f0911e8bcdd811772273089012b7dfdb8fa56fe8dc4df5d240d419",
@@ -70,8 +70,8 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-13T14:33:52Z",
-      "last_success_at": "2026-11-13T14:33:52Z",
+      "last_attempt_at": "2026-11-14T13:30:13Z",
+      "last_success_at": "2026-11-14T13:30:13Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-13T14:33:52Z",
       "digest": "dca355629abe2762d18a32bb234a7eea109c63324e7b95081f5fa491faeb8771",
@@ -114,7 +114,7 @@
         }
       ],
       "last_error": null,
-      "status": "page_modifiee"
+      "status": "sans_nouveau_changement"
     },
     {
       "id": "cnil-collectivites",
@@ -125,8 +125,8 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-13T14:33:52Z",
-      "last_success_at": "2026-11-13T14:33:52Z",
+      "last_attempt_at": "2026-11-14T13:30:13Z",
+      "last_success_at": "2026-11-14T13:30:13Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-10T14:51:51Z",
       "digest": "fe979fd1d950da3a66c2cfd13df875da02993b05d4f197c284803fd79ede4258",
