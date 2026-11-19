@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-18T15:38:37Z",
+  "last_run_at": "2026-11-19T15:43:24Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,19 +47,23 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-18T15:38:37Z",
-      "last_success_at": "2026-11-18T15:38:37Z",
+      "last_attempt_at": "2026-11-19T15:43:24Z",
+      "last_success_at": "2026-11-19T15:43:24Z",
       "baseline_at": "2026-11-06T10:48:15Z",
-      "last_change_at": null,
-      "digest": "eeb00448c0f0911e8bcdd811772273089012b7dfdb8fa56fe8dc4df5d240d419",
+      "last_change_at": "2026-11-19T15:43:24Z",
+      "digest": "fe4f36ba60dc188c46dae36186b0f56ce5893dbcb254d88fbafe1ff1bbfbc099",
       "history": [
         {
           "date": "2026-11-06T10:48:15Z",
           "evenement": "premiere_empreinte"
+        },
+        {
+          "date": "2026-11-19T15:43:24Z",
+          "evenement": "page_modifiee"
         }
       ],
       "last_error": null,
-      "status": "sans_nouveau_changement"
+      "status": "page_modifiee"
     },
     {
       "id": "dgcl-collectivites",
@@ -70,11 +74,11 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-18T15:38:37Z",
-      "last_success_at": "2026-11-18T15:38:37Z",
+      "last_attempt_at": "2026-11-19T15:43:24Z",
+      "last_success_at": "2026-11-19T15:43:24Z",
       "baseline_at": "2026-11-06T09:39:55Z",
-      "last_change_at": "2026-11-18T15:38:37Z",
-      "digest": "33f2d631a3e13a56e492ab8b8e05d49be4149933a00ad7beeb1044c589e5cf1e",
+      "last_change_at": "2026-11-19T15:43:24Z",
+      "digest": "ca1a1de25c89e5d9e24db6e7301f19f53b1227d19f24ceaa1c0085fe25956f29",
       "history": [
         {
           "date": "2026-11-06T09:39:55Z",
@@ -123,6 +127,10 @@
         {
           "date": "2026-11-18T15:38:37Z",
           "evenement": "page_modifiee"
+        },
+        {
+          "date": "2026-11-19T15:43:24Z",
+          "evenement": "page_modifiee"
         }
       ],
       "last_error": null,
@@ -137,8 +145,8 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-18T15:38:37Z",
-      "last_success_at": "2026-11-18T15:38:37Z",
+      "last_attempt_at": "2026-11-19T15:43:24Z",
+      "last_success_at": "2026-11-19T15:43:24Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-10T14:51:51Z",
       "digest": "fe979fd1d950da3a66c2cfd13df875da02993b05d4f197c284803fd79ede4258",
