@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "last_run_at": "2026-11-20T15:26:31Z",
+  "last_run_at": "2026-11-21T14:38:31Z",
   "sources": [
     {
       "id": "daj-fiches",
@@ -47,8 +47,8 @@
       "source_ids": [
         "ccp"
       ],
-      "last_attempt_at": "2026-11-20T15:26:31Z",
-      "last_success_at": "2026-11-20T15:26:31Z",
+      "last_attempt_at": "2026-11-21T14:38:31Z",
+      "last_success_at": "2026-11-21T14:38:31Z",
       "baseline_at": "2026-11-06T10:48:15Z",
       "last_change_at": "2026-11-20T15:26:31Z",
       "digest": "4c9def69b57a3c10f859377ad732f19d606b6633aa21646c63e2cc437baecc57",
@@ -67,7 +67,7 @@
         }
       ],
       "last_error": null,
-      "status": "page_modifiee"
+      "status": "sans_nouveau_changement"
     },
     {
       "id": "dgcl-collectivites",
@@ -78,8 +78,8 @@
       "source_ids": [
         "dgcl"
       ],
-      "last_attempt_at": "2026-11-20T15:26:31Z",
-      "last_success_at": "2026-11-20T15:26:31Z",
+      "last_attempt_at": "2026-11-21T14:38:31Z",
+      "last_success_at": "2026-11-21T14:38:31Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-20T15:26:31Z",
       "digest": "e5a6fe16c314ba372b853c360b80baec340961aed74b2959f59b3adaf1e6c320",
@@ -142,7 +142,7 @@
         }
       ],
       "last_error": null,
-      "status": "page_modifiee"
+      "status": "sans_nouveau_changement"
     },
     {
       "id": "cnil-collectivites",
@@ -153,8 +153,8 @@
       "source_ids": [
         "cnil"
       ],
-      "last_attempt_at": "2026-11-20T15:26:31Z",
-      "last_success_at": "2026-11-20T15:26:31Z",
+      "last_attempt_at": "2026-11-21T14:38:31Z",
+      "last_success_at": "2026-11-21T14:38:31Z",
       "baseline_at": "2026-11-06T09:39:55Z",
       "last_change_at": "2026-11-10T14:51:51Z",
       "digest": "fe979fd1d950da3a66c2cfd13df875da02993b05d4f197c284803fd79ede4258",
