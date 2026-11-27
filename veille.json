@@ -3,9 +3,9 @@
   "status": "ok",
   "source_name": "Journal officiel — DILA JORFSIMPLE",
   "source_url": "https://echanges.dila.gouv.fr/OPENDATA/JORFSIMPLE/",
-  "generated_at": "2026-11-26T17:48:33+00:00",
-  "last_success": "2026-11-26T17:48:33+00:00",
-  "latest_archive_date": "2026-11-26",
+  "generated_at": "2026-11-27T17:32:53+00:00",
+  "last_success": "2026-11-27T17:32:53+00:00",
+  "latest_archive_date": "2026-11-27",
   "processed_archives": [
     "JORFSIMPLE_20261108-210452.tar.gz",
     "JORFSIMPLE_20261109-212854.tar.gz",
@@ -40,9 +40,207 @@
     "JORFSIMPLE_20261124-221545.tar.gz",
     "JORFSIMPLE_20261125-002638.tar.gz",
     "JORFSIMPLE_20261125-221117.tar.gz",
-    "JORFSIMPLE_20261126-003020.tar.gz"
+    "JORFSIMPLE_20261126-003020.tar.gz",
+    "JORFSIMPLE_20261126-215653.tar.gz",
+    "JORFSIMPLE_20261127-002700.tar.gz"
   ],
   "items": [
+    {
+      "id": "JORFTEXT000055151301",
+      "title": "Avis de vacance d'un emploi de directeur du pôle ressources et missions domaniales de la direction départementale des finances publiques de la Loire",
+      "date": "2026-11-27",
+      "nature": "AVIS",
+      "nor": "CPPE2631852V",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055151301",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055151287",
+      "title": "Avis de concours organisés au titre de l'année 2027 pour le recrutement d'inspecteurs des douanes et droits indirects de la branche de la surveillance dans la spécialité « marin des douanes - officier naval »",
+      "date": "2026-11-27",
+      "nature": "AVIS",
+      "nor": "CPPD2631380V",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055151287",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055151273",
+      "title": "Avis de concours organisés au titre de l'année 2027 pour le recrutement d'inspecteurs des douanes et droits indirects de la branche de la surveillance dans la spécialité « marin des douanes - officier mécanicien naval »",
+      "date": "2026-11-27",
+      "nature": "AVIS",
+      "nor": "CPPD2631376V",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055151273",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055151238",
+      "title": "Avis de vacance d'emplois de direction de la fonction publique hospitalière (emplois fonctionnels)",
+      "date": "2026-11-27",
+      "nature": "AVIS",
+      "nor": "SFHN2631827V",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055151238",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055151216",
+      "title": "Avis portant modification d'un avis de vacance d'un emploi de directeur régional aux droits des femmes et à l'égalité entre les femmes et les hommes de Bretagne",
+      "date": "2026-11-27",
+      "nature": "AVIS",
+      "nor": "PRMG2631537V",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055151216",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055151079",
+      "title": "Arrêté du 13 novembre 2026 portant fin de fonctions (direction régionale de l'économie, de l'emploi, du travail et des solidarités des Pays de la Loire)",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "ECOH2627952A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055151079",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150971",
+      "title": "Arrêté du 17 novembre 2026 portant nomination du président et des membres du comité « Parcours et carrière » commun aux ministères chargés de la transition écologique, de la cohésion des territoires et de la mer",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "TECK2628442A",
+      "domains": [
+        "Environnement & développement durable"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150971",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150954",
+      "title": "Arrêté du 25 novembre 2026 portant cessation de fonctions (directions départementales interministérielles)",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "INTP2628211A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150954",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150894",
+      "title": "Arrêté du 25 novembre 2026 autorisant au titre de l'année 2027 l'ouverture d'un examen professionnel pour le recrutement d'assistants d'administration de l'aviation civile de classe normale au ministère des transports (direction générale de l'aviation civile et Météo-France)",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "TRAA2631593A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150894",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150858",
+      "title": "Arrêté du 25 novembre 2026 autorisant au titre de l'année 2027 l'ouverture d'un concours sur titres pour le recrutement d'ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "TRAA2631499A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150858",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150849",
+      "title": "Arrêté du 25 novembre 2026 autorisant au titre de l'année 2027 l'ouverture d'un concours externe par filière et d'un concours interne pour l'accès au corps des ingénieurs des études et de l'exploitation de l'aviation civile",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "TRAA2631497A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150849",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150828",
+      "title": "Arrêté du 24 novembre 2026 autorisant l'ouverture de concours pour le recrutement d'inspecteurs des douanes et droits indirects de la branche de la surveillance dans la spécialité « marin des douanes - officier naval » au titre de l'année 2027",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "CPPD2631377A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150828",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150808",
+      "title": "Arrêté du 24 novembre 2026 autorisant l'ouverture de concours pour le recrutement d'inspecteurs des douanes et droits indirects de la branche de la surveillance dans la spécialité « marin des douanes - officier mécanicien naval » au titre de l'année 2027",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "CPPD2631373A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150808",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150290",
+      "title": "Arrêté du 24 novembre 2026 fixant les taux de promotion de grade des corps de catégories B et C du ministère de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature et du ministère de l'aménagement du territoire et de la décentralisation pour l'année 2027",
+      "date": "2026-11-27",
+      "nature": "ARRETE",
+      "nor": "TECK2631205A",
+      "domains": [
+        "Urbanisme & patrimoine",
+        "Environnement & développement durable"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150290",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
+    {
+      "id": "JORFTEXT000055150233",
+      "title": "Décret n° 2026-1091 du 26 novembre 2026 portant renouvellement de classement du parc naturel régional du Vexin français (région Ile-de-France)",
+      "date": "2026-11-27",
+      "nature": "DECRET",
+      "nor": "TECL2610368D",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055150233",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-27"
+    },
     {
       "id": "JORFTEXT000055145325",
       "title": "Avis de vacance d'un emploi de directeur régional adjoint des affaires culturelles (Grand Est)",
@@ -300,6 +498,578 @@
         "Sécurité & police"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055143735",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000055029392",
+      "title": "Décret du 28 octobre 2026 portant délégation de signature (délégation à la prévention de la délinquance, de la radicalisation, de vigilance et de lutte contre les dérives sectaires - VigiRep)",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "INTK2628613D",
+      "domains": [
+        "Sécurité & police"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055029392",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000054999556",
+      "title": "Arrêté du 14 octobre 2026 portant nomination (délégation à la prévention de la délinquance, de la radicalisation, de vigilance et de lutte contre les dérives sectaires)",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "INTP2626899A",
+      "domains": [
+        "Sécurité & police"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999556",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000054999543",
+      "title": "Décret du 19 octobre 2026 portant nomination de la déléguée interministérielle à la prévention de la délinquance, de la radicalisation, de vigilance et de lutte contre les dérives sectaires - Mme MIRALLES (Patricia)",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "INTP2626931D",
+      "domains": [
+        "Sécurité & police"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999543",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000054930626",
+      "title": "Arrêté du 23 septembre 2026 modifiant l'arrêté du 25 octobre 2022 fixant l'organisation générale, la nature et le programme des épreuves des concours externe et interne pour l'accès au corps des ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TRAA2622822A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054930626",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000054930615",
+      "title": "Arrêté du 23 septembre 2026 modifiant l'arrêté du 26 août 2013 fixant le règlement et le programme du recrutement par examen professionnel des ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TRAA2622821A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054930615",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000054930604",
+      "title": "Arrêté du 23 septembre 2026 modifiant l'arrêté du 26 août 2013 fixant le règlement et le programme du recrutement par sélection professionnelle des ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TRAA2622820A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054930604",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000052952833",
+      "title": "Décret n° 2025-1143 du 27 novembre 2025 relatif à certains emplois supérieurs de la fonction publique hospitalière",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "SFHH2517865D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052952833",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000052211359",
+      "title": "Arrêté du 8 septembre 2025 fixant les taux des aides versées au titre du fonds de soutien au développement des activités périscolaires en faveur des communes de Mayotte",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "MENE2525030A",
+      "domains": [
+        "Enfance & éducation"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052211359",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000052210950",
+      "title": "Décret n° 2025-927 du 8 septembre 2025 relatif au fonds de soutien au développement des activités périscolaires en faveur des communes de Mayotte",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "MENE2525029D",
+      "domains": [
+        "Enfance & éducation"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052210950",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000049950683",
+      "title": "Arrêté du 8 juillet 2024 fixant les conditions et les modalités de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TFPF2418580A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049950683",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000048604468",
+      "title": "Arrêté du 5 septembre 2023 fixant les modalités de la procédure de recrutement des emplois de direction relevant pour leur gestion du secrétariat général du ministère de l'intérieur et des outre-mer",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "IOMA2324171A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048604468",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000046591398",
+      "title": "Arrêté du 23 novembre 2022 relatif à la répartition par niveaux des emplois relevant du décret n° 2022-1453 du 23 novembre 2022 relatif aux conditions de classement, d'avancement et de rémunération applicables à certains emplois supérieurs de la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "PRMG2229284A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591398",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000046591363",
+      "title": "Arrêté du 23 novembre 2022 pris pour l'application à certains emplois supérieurs de la fonction publique de l'Etat des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "PRMX2233010A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591363",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000046591343",
+      "title": "Arrêté du 23 novembre 2022 pris pour l'application au corps des administrateurs de l'Etat des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "PRMX2205145A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591343",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000046591325",
+      "title": "Décret n° 2022-1455 du 23 novembre 2022 portant diverses dispositions applicables à certains emplois supérieurs de la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "PRMX2233017D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591325",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000046591161",
+      "title": "Décret n° 2022-1453 du 23 novembre 2022 relatif aux conditions de classement, d'avancement et de rémunération applicables à certains emplois supérieurs de la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "PRMG2229059D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591161",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000046520449",
+      "title": "Arrêté du 25 octobre 2022 fixant l'organisation générale, la nature et le programme des épreuves des concours externe et interne pour l'accès au corps des ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TREA2230614A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046520449",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000042636412",
+      "title": "Décret n° 2020-1545 du 9 décembre 2020 relatif à l'organisation et aux missions des directions régionales de l'économie, de l'emploi, du travail et des solidarités, des directions départementales de l'emploi, du travail et des solidarités et des directions départementales de l'emploi, du travail, des solidarités et de la protection des populations",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "INTA2029485D",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042636412",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000042185337",
+      "title": "Décret n° 2020-959 du 31 juillet 2020 relatif aux emplois supérieurs de la fonction publique hospitalière",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "SSAH2005220D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042185337",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000041697219",
+      "title": "Arrêté du 27 février 2020 fixant les modalités de recrutement des emplois de direction au ministère de la culture",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "MICB2003994A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041697219",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000041601009",
+      "title": "Arrêté du 6 février 2020 fixant les modalités de recrutement sur les emplois de direction des ministères chargés des affaires sociales",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "SSAR2002505A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041601009",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000039378526",
+      "title": "Arrêté du 31 octobre 2019 fixant les règles d'organisation générale, la nature et le programme des épreuves des concours externe et interne pour l'accès au corps des techniciens supérieurs des études et de l'exploitation de l'aviation civile",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TREA1929495A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039378526",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000039001883",
+      "title": "Arrêté du 30 août 2019 portant création d'une unité facultative de mobilité et de l'attestation MobilitéPro dans les diplômes du baccalauréat professionnel, du brevet professionnel et du brevet des métiers d'art",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "MENE1909771A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039001883",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000037934671",
+      "title": "Arrêté du 19 décembre 2018 fixant les règles d'organisation générale et les modalités de sélection par concours externes et interne pour l'accès au corps des ingénieurs électroniciens des systèmes de la sécurité aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "TRAA1834609A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037934671",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000033893593",
+      "title": "Arrêté du 10 janvier 2017 pris pour l'application aux emplois de direction de l'administration territoriale de l'Etat des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "RDFF1634959A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033893593",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000031646465",
+      "title": "Arrêté du 17 décembre 2015 fixant le classement des emplois de directeur régional des affaires culturelles et de directeur régional adjoint des affaires culturelles",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "MCCB1530423A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031646465",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000028965911",
+      "title": "Décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "RDFF1328976D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028965911",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000027927056",
+      "title": "Arrêté du 26 août 2013 fixant le règlement et le programme du recrutement par examen professionnel des ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "DEVA1321225A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027927056",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000027923985",
+      "title": "Arrêté du 26 août 2013 fixant le règlement et le programme du recrutement par sélection professionnelle des ingénieurs du contrôle de la navigation aérienne",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "DEVA1321228A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027923985",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000025837015",
+      "title": "Décret n° 2012-749 du 9 mai 2012 relatif à la prime de fonctions et de résultats des corps ou emplois fonctionnels des personnels de direction et des directeurs des soins de la fonction publique hospitalière",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "ETSH1222373D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025837015",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000025489865",
+      "title": "LOI n° 2012-347 du 12 mars 2012 relative à l'accès à l'emploi titulaire et à l'amélioration des conditions d'emploi des agents contractuels dans la fonction publique, à la lutte contre les discriminations et portant diverses dispositions relatives à la fonction publique",
+      "date": "2026-11-26",
+      "nature": "LOI",
+      "nor": "MFPF1116839L",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025489865",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000021725632",
+      "title": "Arrêté du 18 janvier 2010 portant extension d'un accord départemental sur la mise en place d'un régime d'assurance complémentaire frais de santé des salariés non cadres des exploitations agricoles de polyculture, d'élevage, de cultures spécialisées, d'élevages spécialisés, de viticulture, des coopératives d'utilisation de matériel agricole et des entreprises de travaux agricoles et forestiers de la Charente-Maritime",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "AGRS1001542A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021725632",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000021540248",
+      "title": "Arrêté du 29 décembre 2009 fixant la liste et le classement par groupes des emplois de direction des directions départementales interministérielles",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "PRMX0931203A",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021540248",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000021373095",
+      "title": "Décret n° 2009-1484 du 3 décembre 2009 relatif aux directions départementales interministérielles",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "PRMX0925639D",
+      "domains": [
+        "Institutions & actes locaux"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021373095",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000020954520",
+      "title": "LOI n° 2009-972 du 3 août 2009 relative à la mobilité et aux parcours professionnels dans la fonction publique (1)",
+      "date": "2026-11-26",
+      "nature": "LOI",
+      "nor": "BCFX0805620L",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000020954520",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000019355395",
+      "title": "Décret n° 2008-836 du 22 août 2008 fixant l'échelonnement indiciaire des corps et des emplois communs aux administrations de l'Etat et de ses établissements publics ou afférent à plusieurs corps de fonctionnaires de l'Etat et de ses établissements publics",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "BCFF0818552D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000019355395",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000699956",
+      "title": "Décret n° 86-83 du 17 janvier 1986 relatif aux dispositions générales applicables aux agents non titulaires de l’État pris pour l'application de l'article 7 de la loi n° 84-16 du 11 janvier 1984 portant dispositions statutaires relatives à la fonction publique de l’État",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000699956",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000650443",
+      "title": "Décret n° 2007-611 du 26 avril 2007 relatif à l'exercice d'activités privées par des fonctionnaires ou agents non titulaires ayant cessé temporairement ou définitivement leurs fonctions et à la commission de déontologie",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "FPPX0700052D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000650443",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000504704",
+      "title": "LOI n° 83-634 du 13 juillet 1983 portant droits et obligations des fonctionnaires",
+      "date": "2026-11-26",
+      "nature": "LOI",
+      "nor": "",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000504704",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000501099",
+      "title": "LOI n° 84-16 du 11 janvier 1984 portant dispositions statutaires relatives à la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "LOI",
+      "nor": "",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000501099",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000445133",
+      "title": "Décret n° 2004-1105 du 19 octobre 2004 relatif à l'ouverture des procédures de recrutement dans la fonction publique de l'Etat",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "FPPX0400131D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000445133",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000413623",
+      "title": "Décret n° 2002-550 du 19 avril 2002 portant statut particulier du corps de directeur des soins de la fonction publique hospitalière",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "MESH0220702D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000413623",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000383311",
+      "title": "Arrêté du 12 mai 1997 fixant les conditions d'organisation des concours de recrutement de l'Institut national de la statistique et des études économiques et des concours d'admission d'élèves titulaires à l'Ecole nationale de la statistique et de l'analyse de l'information et à l'Ecole nationale de la statistique et de l'administration économique",
+      "date": "2026-11-26",
+      "nature": "ARRETE",
+      "nor": "ECOP9700122A",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000383311",
+      "source": "DILA — JORFSIMPLE",
+      "archive_date": "2026-11-26"
+    },
+    {
+      "id": "JORFTEXT000000272471",
+      "title": "Décret n° 2007-196 du 13 février 2007 relatif aux équivalences de diplômes requises pour se présenter aux concours d'accès aux corps et cadres d'emplois de la fonction publique",
+      "date": "2026-11-26",
+      "nature": "DECRET",
+      "nor": "FPPA0700009D",
+      "domains": [
+        "Statut & carrière"
+      ],
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000272471",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-26"
     },
@@ -593,19 +1363,6 @@
       "archive_date": "2026-11-25"
     },
     {
-      "id": "JORFTEXT000049950683",
-      "title": "Arrêté du 8 juillet 2024 fixant les conditions et les modalités de recours à la visioconférence pour l'organisation des voies d'accès à la fonction publique",
-      "date": "2026-11-25",
-      "nature": "ARRETE",
-      "nor": "TFPF2418580A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049950683",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
       "id": "JORFTEXT000049938457",
       "title": "Décret n° 2024-790 du 10 juillet 2024 portant mesures de simplification administrative dans le domaine funéraire",
       "date": "2026-11-25",
@@ -671,45 +1428,6 @@
       "archive_date": "2026-11-25"
     },
     {
-      "id": "JORFTEXT000046591398",
-      "title": "Arrêté du 23 novembre 2022 relatif à la répartition par niveaux des emplois relevant du décret n° 2022-1453 du 23 novembre 2022 relatif aux conditions de classement, d'avancement et de rémunération applicables à certains emplois supérieurs de la fonction publique de l'Etat",
-      "date": "2026-11-25",
-      "nature": "ARRETE",
-      "nor": "PRMG2229284A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591398",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000046591363",
-      "title": "Arrêté du 23 novembre 2022 pris pour l'application à certains emplois supérieurs de la fonction publique de l'Etat des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
-      "date": "2026-11-25",
-      "nature": "ARRETE",
-      "nor": "PRMX2233010A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591363",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000046591161",
-      "title": "Décret n° 2022-1453 du 23 novembre 2022 relatif aux conditions de classement, d'avancement et de rémunération applicables à certains emplois supérieurs de la fonction publique de l'Etat",
-      "date": "2026-11-25",
-      "nature": "DECRET",
-      "nor": "PRMG2229059D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591161",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
       "id": "JORFTEXT000046289732",
       "title": "Arrêté du 5 septembre 2022 fixant les conditions d'organisation dans la spécialité « mathématiques » et dans les spécialités « économie » du concours externe de recrutement d'attachés statisticiens stagiaires de l'Institut national de la statistique et des études économiques",
       "date": "2026-11-25",
@@ -771,19 +1489,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043590607",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000041697219",
-      "title": "Arrêté du 27 février 2020 fixant les modalités de recrutement des emplois de direction au ministère de la culture",
-      "date": "2026-11-25",
-      "nature": "ARRETE",
-      "nor": "MICB2003994A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041697219",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-25"
     },
@@ -888,19 +1593,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029190469",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000028965911",
-      "title": "Décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
-      "date": "2026-11-25",
-      "nature": "DECRET",
-      "nor": "RDFF1328976D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028965911",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-25"
     },
@@ -1022,19 +1714,6 @@
       "archive_date": "2026-11-25"
     },
     {
-      "id": "JORFTEXT000019355395",
-      "title": "Décret n° 2008-836 du 22 août 2008 fixant l'échelonnement indiciaire des corps et des emplois communs aux administrations de l'Etat et de ses établissements publics ou afférent à plusieurs corps de fonctionnaires de l'Etat et de ses établissements publics",
-      "date": "2026-11-25",
-      "nature": "DECRET",
-      "nor": "BCFF0818552D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000019355395",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
       "id": "JORFTEXT000000820567",
       "title": "Décret n° 2007-431 du 25 mars 2007 relatif à la partie réglementaire du code de commerce Les dispositions réglementaires du code de commerce font l'objet d'une publication spéciale annexée au Journal officiel de ce jour (voir à la fin du sommaire)",
       "date": "2026-11-25",
@@ -1074,32 +1753,6 @@
       "archive_date": "2026-11-25"
     },
     {
-      "id": "JORFTEXT000000504704",
-      "title": "LOI n° 83-634 du 13 juillet 1983 portant droits et obligations des fonctionnaires",
-      "date": "2026-11-25",
-      "nature": "LOI",
-      "nor": "",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000504704",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000000501099",
-      "title": "LOI n° 84-16 du 11 janvier 1984 portant dispositions statutaires relatives à la fonction publique de l'Etat",
-      "date": "2026-11-25",
-      "nature": "LOI",
-      "nor": "",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000501099",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
       "id": "JORFTEXT000000493672",
       "title": "Décret n° 64-1087 du 27 octobre 1964 portant codification des règlements d'administration publique (RAP) et décrets en conseil d'État concernant l'élection des députés, des conseillers généraux, des conseillers municipaux et des sénateurs de la métropole et des départements d'outre-mer",
       "date": "2026-11-25",
@@ -1109,32 +1762,6 @@
         "Institutions & actes locaux"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000493672",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000000445133",
-      "title": "Décret n° 2004-1105 du 19 octobre 2004 relatif à l'ouverture des procédures de recrutement dans la fonction publique de l'Etat",
-      "date": "2026-11-25",
-      "nature": "DECRET",
-      "nor": "FPPX0400131D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000445133",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000000383311",
-      "title": "Arrêté du 12 mai 1997 fixant les conditions d'organisation des concours de recrutement de l'Institut national de la statistique et des études économiques et des concours d'admission d'élèves titulaires à l'Ecole nationale de la statistique et de l'analyse de l'information et à l'Ecole nationale de la statistique et de l'administration économique",
-      "date": "2026-11-25",
-      "nature": "ARRETE",
-      "nor": "ECOP9700122A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000383311",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-25"
     },
@@ -1174,19 +1801,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000274444",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-25"
-    },
-    {
-      "id": "JORFTEXT000000272471",
-      "title": "Décret n° 2007-196 du 13 février 2007 relatif aux équivalences de diplômes requises pour se présenter aux concours d'accès aux corps et cadres d'emplois de la fonction publique",
-      "date": "2026-11-25",
-      "nature": "DECRET",
-      "nor": "FPPA0700009D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000272471",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-25"
     },
@@ -2062,19 +2676,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051490773",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-24"
-    },
-    {
-      "id": "JORFTEXT000046591325",
-      "title": "Décret n° 2022-1455 du 23 novembre 2022 portant diverses dispositions applicables à certains emplois supérieurs de la fonction publique de l'Etat",
-      "date": "2026-11-24",
-      "nature": "DECRET",
-      "nor": "PRMX2233017D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591325",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-24"
     },
@@ -3421,45 +4022,6 @@
       "archive_date": "2026-11-22"
     },
     {
-      "id": "JORFTEXT000048604468",
-      "title": "Arrêté du 5 septembre 2023 fixant les modalités de la procédure de recrutement des emplois de direction relevant pour leur gestion du secrétariat général du ministère de l'intérieur et des outre-mer",
-      "date": "2026-11-22",
-      "nature": "ARRETE",
-      "nor": "IOMA2324171A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048604468",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-22"
-    },
-    {
-      "id": "JORFTEXT000046591343",
-      "title": "Arrêté du 23 novembre 2022 pris pour l'application au corps des administrateurs de l'Etat des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
-      "date": "2026-11-22",
-      "nature": "ARRETE",
-      "nor": "PRMX2205145A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046591343",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-22"
-    },
-    {
-      "id": "JORFTEXT000042636412",
-      "title": "Décret n° 2020-1545 du 9 décembre 2020 relatif à l'organisation et aux missions des directions régionales de l'économie, de l'emploi, du travail et des solidarités, des directions départementales de l'emploi, du travail et des solidarités et des directions départementales de l'emploi, du travail, des solidarités et de la protection des populations",
-      "date": "2026-11-22",
-      "nature": "DECRET",
-      "nor": "INTA2029485D",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042636412",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-22"
-    },
-    {
       "id": "JORFTEXT000041983113",
       "title": "Arrêté du 3 juin 2019 fixant les modalités de recrutement des emplois de direction de l'Etat relevant de la direction générale des finances publiques prévues par le décret n° 2019-1594 du 31 décembre 2019 relatif aux emplois de direction de l'Etat",
       "date": "2026-11-22",
@@ -3469,19 +4031,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041983113",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-22"
-    },
-    {
-      "id": "JORFTEXT000041601009",
-      "title": "Arrêté du 6 février 2020 fixant les modalités de recrutement sur les emplois de direction des ministères chargés des affaires sociales",
-      "date": "2026-11-22",
-      "nature": "ARRETE",
-      "nor": "SSAR2002505A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041601009",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-22"
     },
@@ -3508,32 +4057,6 @@
         "Statut & carrière"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039803839",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-22"
-    },
-    {
-      "id": "JORFTEXT000033893593",
-      "title": "Arrêté du 10 janvier 2017 pris pour l'application aux emplois de direction de l'administration territoriale de l'Etat des dispositions du décret n° 2014-513 du 20 mai 2014 portant création d'un régime indemnitaire tenant compte des fonctions, des sujétions, de l'expertise et de l'engagement professionnel dans la fonction publique de l'Etat",
-      "date": "2026-11-22",
-      "nature": "ARRETE",
-      "nor": "RDFF1634959A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033893593",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-22"
-    },
-    {
-      "id": "JORFTEXT000021540248",
-      "title": "Arrêté du 29 décembre 2009 fixant la liste et le classement par groupes des emplois de direction des directions départementales interministérielles",
-      "date": "2026-11-22",
-      "nature": "ARRETE",
-      "nor": "PRMX0931203A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021540248",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-22"
     },
@@ -3677,19 +4200,6 @@
         "Sécurité & police"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032495914",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-21"
-    },
-    {
-      "id": "JORFTEXT000021373095",
-      "title": "Décret n° 2009-1484 du 3 décembre 2009 relatif aux directions départementales interministérielles",
-      "date": "2026-11-21",
-      "nature": "DECRET",
-      "nor": "PRMX0925639D",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021373095",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-21"
     },
@@ -3967,19 +4477,6 @@
       "archive_date": "2026-11-20"
     },
     {
-      "id": "JORFTEXT000039001883",
-      "title": "Arrêté du 30 août 2019 portant création d'une unité facultative de mobilité et de l'attestation MobilitéPro dans les diplômes du baccalauréat professionnel, du brevet professionnel et du brevet des métiers d'art",
-      "date": "2026-11-20",
-      "nature": "ARRETE",
-      "nor": "MENE1909771A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039001883",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-20"
-    },
-    {
       "id": "JORFTEXT000037952584",
       "title": "Décret n° 2019-5 du 4 janvier 2019 portant application de l'ordonnance n° 2019-2 du 4 janvier 2019 portant simplification des dispositifs de reconversion des militaires et des anciens militaires dans la fonction publique civile",
       "date": "2026-11-20",
@@ -4041,19 +4538,6 @@
         "Institutions & actes locaux"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031738319",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-20"
-    },
-    {
-      "id": "JORFTEXT000031646465",
-      "title": "Arrêté du 17 décembre 2015 fixant le classement des emplois de directeur régional des affaires culturelles et de directeur régional adjoint des affaires culturelles",
-      "date": "2026-11-20",
-      "nature": "ARRETE",
-      "nor": "MCCB1530423A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031646465",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-20"
     },
@@ -4617,19 +5101,6 @@
       "archive_date": "2026-11-18"
     },
     {
-      "id": "JORFTEXT000020954520",
-      "title": "LOI n° 2009-972 du 3 août 2009 relative à la mobilité et aux parcours professionnels dans la fonction publique (1)",
-      "date": "2026-11-18",
-      "nature": "LOI",
-      "nor": "BCFX0805620L",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000020954520",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-18"
-    },
-    {
       "id": "JORFTEXT000000636232",
       "title": "Ordonnance n° 2005-1516 du 8 décembre 2005 relative aux échanges électroniques entre les usagers et les autorités administratives et entre les autorités administratives",
       "date": "2026-11-18",
@@ -4639,19 +5110,6 @@
         "Usagers & procédures"
       ],
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000636232",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-18"
-    },
-    {
-      "id": "JORFTEXT000000413623",
-      "title": "Décret n° 2002-550 du 19 avril 2002 portant statut particulier du corps de directeur des soins de la fonction publique hospitalière",
-      "date": "2026-11-18",
-      "nature": "DECRET",
-      "nor": "MESH0220702D",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000413623",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-18"
     },
@@ -5153,19 +5611,6 @@
       "archive_date": "2026-11-16"
     },
     {
-      "id": "JORFTEXT000000699956",
-      "title": "Décret n° 86-83 du 17 janvier 1986 relatif aux dispositions générales applicables aux agents non titulaires de l’État pris pour l'application de l'article 7 de la loi n° 84-16 du 11 janvier 1984 portant dispositions statutaires relatives à la fonction publique de l’État",
-      "date": "2026-11-16",
-      "nature": "DECRET",
-      "nor": "",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000699956",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-16"
-    },
-    {
       "id": "JORFTEXT000000522613",
       "title": "Décret n°87-811 du 5 octobre 1987 RELATIF AU CENTRE NATIONAL DE LA FONCTION PUBLIQUE TERRITORIALE",
       "date": "2026-11-16",
@@ -5463,448 +5908,6 @@
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055087924",
       "source": "DILA — JORFSIMPLE",
       "archive_date": "2026-11-14"
-    },
-    {
-      "id": "JORFTEXT000055087644",
-      "title": "Décision n° 2026-42 du 12 novembre 2026 du directeur de la CNSA modifiant la décision n° 2026-19 du 15 juin 2026 du directeur de la CNSA relative aux dotations régionales limitatives et à la moyenne nationale des besoins en soins requis pour l'année 2026",
-      "date": "2026-11-14",
-      "nature": "DECISION",
-      "nor": "SFHA2630349S",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055087644",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-14"
-    },
-    {
-      "id": "JORFTEXT000055082868",
-      "title": "Avis fixant le nombre de places offertes aux concours pour le recrutement de techniciens-géomètres du corps des géomètres-cadastreurs des finances publiques au titre de l'année 2027",
-      "date": "2026-11-13",
-      "nature": "AVIS",
-      "nor": "CPPE2627682V",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055082868",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055082768",
-      "title": "Avis de vacance d'un emploi de directeur départemental interministériel adjoint (direction départementale de l'emploi, du travail, des solidarités et de la protection des populations de la Haute-Vienne)",
-      "date": "2026-11-13",
-      "nature": "AVIS",
-      "nor": "INTP2630237V",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055082768",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055082738",
-      "title": "Avis de vacance d'un emploi de directeur départemental interministériel adjoint (direction départementale des territoires de l'Oise)",
-      "date": "2026-11-13",
-      "nature": "AVIS",
-      "nor": "INTP2630118V",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055082738",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055082708",
-      "title": "Avis de vacance d'un emploi de directeur départemental interministériel adjoint (direction départementale de la protection des populations du Rhône)",
-      "date": "2026-11-13",
-      "nature": "AVIS",
-      "nor": "INTP2630115V",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055082708",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055082678",
-      "title": "Avis de vacance d'un emploi de directeur départemental interministériel adjoint (direction départementale de l'emploi, du travail, des solidarités et de la protection des populations de l'Aude)",
-      "date": "2026-11-13",
-      "nature": "AVIS",
-      "nor": "INTP2630114V",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055082678",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055082607",
-      "title": "Arrêté du 6 novembre 2026 portant modification de l'arrêté du 14 octobre 2026 portant établissement de la liste d'aptitude pour le recrutement dans le cadre d'emplois de conservateur territorial du patrimoine (session 2024) à compter du 1er novembre 2026",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "FPTC2628412A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055082607",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081892",
-      "title": "Arrêté du 10 novembre 2026 portant désignation du directeur par intérim de la direction régionale des douanes de Roissy voyageurs",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "CPPD2629574A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081892",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081513",
-      "title": "Arrêté du 10 novembre 2026 fixant le nombre de places offertes aux concours pour le recrutement de techniciens-géomètres du corps des géomètres-cadastreurs des finances publiques au titre de l'année 2027",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "CPPE2627673A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081513",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081503",
-      "title": "Arrêté du 9 novembre 2026 fixant le nombre de places offertes aux concours ouverts pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information − programmeur de système d'exploitation » au titre de l'année 2027",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "CPPD2629801A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081503",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081452",
-      "title": "Arrêté du 4 novembre 2026 portant transfert de propriété de biens des collections nationales au profit d'une collectivité territoriale, en application des dispositions de l'article L. 451-9 du code du patrimoine",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "MICC2627713A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081452",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081357",
-      "title": "Arrêté du 28 octobre 2026 relatif au contrat d'études et aux conditions de réalisation et de reconnaissance de la mobilité scolaire individuelle européenne et internationale des élèves de lycée d'enseignement général et technologique",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "MENE2625481A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081357",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081323",
-      "title": "Arrêté du 3 novembre 2026 modifiant l'arrêté du 11 août 2020 fixant les conditions de recrutement et de formation des praticiens-conseils et des médecins-conseils chefs de service du contrôle médical des régimes agricoles de protection sociale",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "AGRS2627262A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081323",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081299",
-      "title": "Arrêté du 10 novembre 2026 modifiant l'arrêté du 24 novembre 2015 relatif au concours commun d'admission d'élèves ingénieurs dans certaines écoles des mines et des télécommunications",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "ECOG2630047A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081299",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081212",
-      "title": "Arrêté du 6 novembre 2026 autorisant au titre de l'année 2027 l'ouverture d'un concours externe sur titres pour le recrutement d'éducateurs de la protection judiciaire de la jeunesse",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "JUSF2629648A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081212",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081192",
-      "title": "Arrêté du 6 novembre 2026 autorisant au titre de l'année 2027 l'ouverture d'un concours externe sur titres et par spécialité et fixant la date des épreuves orales pour le recrutement d'ingénieurs des travaux publics de l'Etat",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "TECK2628037A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081192",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055081170",
-      "title": "Décret n° 2026-1039 du 10 novembre 2026 modifiant diverses dispositions du code de l'environnement et du code de l'urbanisme relatives à l'évaluation environnementale",
-      "date": "2026-11-13",
-      "nature": "DECRET",
-      "nor": "TECD2615929D",
-      "domains": [
-        "Urbanisme & patrimoine"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055081170",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000054794302",
-      "title": "Arrêté du 31 août 2026 autorisant au titre de l'année 2027 l'ouverture de concours pour le recrutement de techniciens-géomètres du corps des géomètres-cadastreurs des finances publiques",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "CPPE2620592A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054794302",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000054393092",
-      "title": "Arrêté du 30 juin 2026 autorisant l'ouverture de concours pour le recrutement d'inspecteurs des douanes et droits indirects dans la spécialité « traitement automatisé de l'information − programmeur de système d'exploitation » au titre de l'année 2027",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "CPPD2617613A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393092",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000046727643",
-      "title": "Arrêté du 7 décembre 2022 fixant les règles d'organisation générale du concours externe sur titres ainsi que la liste des spécialités d'accès au corps des ingénieurs des travaux publics de l'Etat",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "TREK2235062A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046727643",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000042575992",
-      "title": "Arrêté du 25 novembre 2020 fixant la nature et le programme des épreuves des concours externes et internes ouverts par spécialité pour le recrutement d'inspecteurs des douanes et droits indirects",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "ECOD2019365A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042575992",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000042575972",
-      "title": "Arrêté du 25 novembre 2020 fixant la liste des spécialités au titre desquelles peuvent être ouverts les concours d'agent de constatation des douanes, de contrôleur des douanes et droits indirects et d'inspecteur des douanes et droits indirects",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "ECOD2019364A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042575972",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000042243711",
-      "title": "Arrêté du 11 août 2020 fixant les conditions de recrutement et de formation des praticiens-conseils et des médecins-conseils chefs de service du contrôle médical des régimes agricoles de protection sociale",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "AGRS2018553A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042243711",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000041663085",
-      "title": "Arrêté du 28 février 2020 fixant les modalités de recrutement des emplois de direction au ministère de l'Europe et des affaires étrangères",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "EAEA2004152A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041663085",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000031566693",
-      "title": "Arrêté du 24 novembre 2015 relatif au concours commun d'admission d'élèves ingénieurs dans certaines écoles des mines et des télécommunications",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "EING1528359A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031566693",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000024099610",
-      "title": "Arrêté du 19 mai 2011 fixant les règles d'organisation générale, la nature et le programme des épreuves des concours pour l'accès au grade de technicien géomètre du corps des géomètres-cadastreurs des finances publiques",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "BCRE1030471A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024099610",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000021276588",
-      "title": "Arrêté du 10 novembre 2009 relatif aux règles d'organisation générale des concours pour le recrutement des éducateurs de la protection judiciaire de la jeunesse",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "JUSF0926980A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021276588",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000000565418",
-      "title": "Arrêté du 3 mars 1997 fixant les conditions d'organisation des concours et examens professionnels de recrutement dans les services déconcentrés de la direction générale des douanes et droits indirects",
-      "date": "2026-11-13",
-      "nature": "ARRETE",
-      "nor": "ECOP9700006A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000565418",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000000451781",
-      "title": "Décret n° 2005-1007 du 2 août 2005 relatif à la partie réglementaire du code monétaire et financier Les dispositions réglementaires du code monétaire et financier font l'objet d'une publication spéciale annexée au Journal officiel de ce jour (voir à la fin du sommaire)",
-      "date": "2026-11-13",
-      "nature": "DECRET",
-      "nor": "ECOX0500001D",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000451781",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-13"
-    },
-    {
-      "id": "JORFTEXT000055078683",
-      "title": "Arrêté du 4 novembre 2026 portant transfert de propriété d'un bien des collections nationales au profit d'une collectivité territoriale en application des dispositions des articles L. 125-1 et L. 451-8 du code du patrimoine",
-      "date": "2026-11-12",
-      "nature": "ARRETE",
-      "nor": "MICC2628315A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078683",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-12"
-    },
-    {
-      "id": "JORFTEXT000048430920",
-      "title": "Arrêté du 9 novembre 2023 relatif au concours commun d'accès aux formations d'ingénieur d'écoles nationales relevant du ministre chargé de l'agriculture et du ministre chargé de l'enseignement supérieur",
-      "date": "2026-11-12",
-      "nature": "ARRETE",
-      "nor": "AGRE2330800A",
-      "domains": [
-        "Statut & carrière"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048430920",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-12"
-    },
-    {
-      "id": "JORFTEXT000055078906",
-      "title": "Arrêté du 6 novembre 2026 portant extension d'un accord régional sur la mise en place d'un régime de prévoyance des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salariés ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif à la prévoyance des cadres du 17 novembre 2017",
-      "date": "2026-11-11",
-      "nature": "ARRETE",
-      "nor": "AGRS2628816A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078906",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-11"
-    },
-    {
-      "id": "JORFTEXT000055078820",
-      "title": "Arrêté du 5 novembre 2026 portant nomination d'une directrice régionale de l'alimentation, de l'agriculture et de la forêt par intérim (Provence-Alpes-Côte d'Azur)",
-      "date": "2026-11-11",
-      "nature": "ARRETE",
-      "nor": "AGRS2628701A",
-      "domains": [
-        "Institutions & actes locaux"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078820",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-11"
-    },
-    {
-      "id": "JORFTEXT000055078279",
-      "title": "Décret du 10 novembre 2026 portant concession de la Médaille militaire en faveur des militaires n'appartenant pas à l'armée active, au titre des mutilés de guerre",
-      "date": "2026-11-11",
-      "nature": "DECRET",
-      "nor": "ARMM2627555D",
-      "domains": [
-        "Commande publique"
-      ],
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078279",
-      "source": "DILA — JORFSIMPLE",
-      "archive_date": "2026-11-11"
     }
   ],
   "warnings": [],
